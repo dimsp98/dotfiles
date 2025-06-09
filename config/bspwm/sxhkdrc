@@ -58,7 +58,7 @@ XF86MonBrightnessDown
   
 # Browser
 super + b
-  brave-browser-stable
+  brave
 
 alt + b 
   firefox
