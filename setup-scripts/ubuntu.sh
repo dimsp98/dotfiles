@@ -19,7 +19,7 @@ bat cache --build
 chsh -s /usr/bin/zsh && sudo chsh -s /usr/bin/zsh
 #NVim
 rustup toolchain install nightly
-sudo apt install gcc tree-sitter zoxide lazygit ripgrep sqlite fd yarn lldb nvm gcc
+sudo apt install gcc tree-sitter-cli ripgrep gcc
 cd ~
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 
