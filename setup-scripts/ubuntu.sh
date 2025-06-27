@@ -1,7 +1,7 @@
 #!/bin/sh
 #Install Dependencies
 cd ~ && echo "Installing Dependencies"
-sudo apt install bspwm rofi polybar lf sxhkdrc feh maim lxappearance papirus-icon-theme
+sudo apt install bspwm rofi polybar lf sxhkdrc feh maim lxappearance papirus-icon-theme ttf-mscorefonts-installer
 #creating directories
 echo "Creating directories"
 papirus-folders -C cyan --theme Papirus-Dark
