@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 # Terminate already running bar instances
 pkill polybar
