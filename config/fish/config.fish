@@ -1,7 +1,20 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 set fish_greeting
-alias v="nvim"
-alias ga="git add"
-alias gp="git push"
+#aliases
+alias up='sudo apt update && sudo apt upgrade'
+alias it='sudo apt install'
+alias pull='git pull'
+alias ga='git add'
+alias gp='git push'
+alias xi='sudo xbps-install'
+alias xr='sudo xbps-remove -R'
+alias xup='sudo xbps-install -Suv'
+alias ls='ls -a --color'
+alias v='nvim'
+alias sv='sudo nvim'
+alias mk='sudo make install'
+alias gc='git clone'
+alias sub='git submodule update --init'
+alias dot='cd $HOME/dotfiles/'
 end
