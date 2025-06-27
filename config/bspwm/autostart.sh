@@ -14,7 +14,7 @@ xset s off -dpms &
 pgrep -x picom >/dev/null || picom -b --config ~/.config/picom/picom.conf &
 
 #wallpaper
-feh --bg-scale --no-fehbg /home/dimitris/dotfiles/Backgrounds/wallhaven-xlr71v_3840x2160.png &
+feh --bg-scale --no-fehbg $HOME/dotfiles/Backgrounds/wallhaven-xlr71v_3840x2160.png &
 
 #clipboard
 xclip &
