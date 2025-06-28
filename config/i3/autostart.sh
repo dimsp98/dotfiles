@@ -1,8 +1,7 @@
 #!/bin/sh
 
 #Xorg management
-#xrandr --output HDMI-2 --primary --mode 1920x1080 --rate 120 --dpi 60 --rotate normal --output eDP-1 --off &
-xrandr --output eDP-1 --primary --mode 1920x1080 --rate 60 --dpi 60 --rotate normal &
+xrandr --output DP-0 --primary --mode 1920x1080 --rate 144 --rotate normal &
 
 #cursor
 xsetroot -cursor_name left_ptr &
@@ -26,7 +25,7 @@ pgrep -x sxhkd >/dev/null || sxhkd -c $HOME/.config/sxhkd/sxhkdrc &
 setxkbmap -model pc104 -layout us,gr -option 'grp:alt_shift_toggle' &
 
 #notifications
-pgrep -x dunst >/dev/null || dunst -c ~/.config/dunst/dunstrc &
+pgrep -x dunst >/dev/null || dunst -c $HOME/.config/dunst/dunstrc &
 
 #network
 nm-applet &
@@ -35,4 +34,4 @@ nm-applet &
 pipewire &
 
 #polybar
-~/.config/i3/panel.sh
+$HOME/.config/i3/panel.sh
