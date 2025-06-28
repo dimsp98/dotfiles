@@ -10,7 +10,7 @@ bspc monitor -d 1 2 3 4 5 6 7 8 9 10
 bspc rule -a Firefox desktop=^2 follow=true state=tiled
 bspc rule -a Thunar desktop=^3 follow=true state=tiled
 bspc rule -a Zathura desktop=^4 state=tiled follow=true
-bspc rule -a mpv desktop=^10 state=tiled follow=true
+bspc rule -a vlc desktop=^10 state=tiled follow=true
 bspc rule -a zoom desktop=^9 state=tiled follow=true
 bspc rule -a Soffice follow=false desktop=^5
 bspc rule -a Zotero follow=false desktop=^6
