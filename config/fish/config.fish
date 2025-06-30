@@ -123,7 +123,6 @@ alias remove='sudo pacman -Rns'
 #git
 alias ga='git add'
 alias gp='git push'
-alias ls='ls -a --color'
 alias gc='git clone'
 alias sub='git submodule update --init'
 alias dot='cd $HOME/dotfiles/'
