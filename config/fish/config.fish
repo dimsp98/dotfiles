@@ -1,6 +1,10 @@
+# Session startup
+if uwsm check may-start; and uwsm select
+    exec uwsm start default
+end
+
 ## Source from conf.d before our fish config
 source $HOME/.config/fish/conf.d/done.fish
-
 
 ## Set values
 ## Run fastfetch as welcome message
