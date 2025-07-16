@@ -1,12 +1,10 @@
 #!/bin/sh
 #Install Dependencies
 cd ~ && echo "Installing Dependencies"
-sudo xbps-install arandr acpi rustup pnpm kitty elogind rofi picom yt-dlp syncthing ImageMagick void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
+sudo xbps-install arandr acpi rustup pnpm kitty elogind rofi picom void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
 sudo xbps-install void-repo-multilib void-repo-multilib-nonfree nodejs pnpm xorg base-devel git bat papirus-icon-theme papirus-folders lf ffmpeg ghostscript zip unzip gzip 
-sudo xbps-install lxappearance libX11-devel libXinerama-devel libXft-devel xsetroot curl openssh wget bspwm htop pipewire pamixer pavucontrol openjdk-jre ncmpcpp sxhkd xclip dunst vlc maim 
-sudo xbps-install sddm
-sudo xbps-install libreoffice 
-sudo xbps-install zig fish neovim polybar jsoncpp feh zathura-pdf-mupdf hplip cups simple-scan ntfs-3g udisks2
+sudo xbps-install lxappearance libX11-devel libXinerama-devel libXft-devel xsetroot curl openssh wget bspwm htop pipewire pamixer pavucontrol ncmpcpp sxhkd xclip dunst vlc maim
+sudo xbps-install zig fish neovim polybar jsoncpp feh zathura-pdf-mupdf firefox
 sudo xbps-remove -R gnome-keyring
 #creating directories
 echo "Setting folder Theme"
@@ -43,5 +41,3 @@ cd ~
 #Setting up services
 echo -e "Setting up servicces"
 sudo ln -s /etc/sv/dbus /var/service
-sudo ln -s /etc/sv/cupsd /var/service
-sudo ln -s /etc/sv/bluetoothd /var/service
