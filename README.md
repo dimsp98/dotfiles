@@ -23,4 +23,4 @@ A backup of my Linux config files.
 ⚙️ Install and setup
 ------------------------------
 This repo provides automated scripts to help you quickly install dependencies and setup the configuration.
-There are scripts used for my previous setups, tailored for Void Linux and Ubuntu, as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
+There are scripts used for my previous setup, tailored for Void Linux, as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
