@@ -10,7 +10,7 @@ A backup of my Linux config files.
 | Shell           | [fish](https://fishshell.com)                  |
 | Editor          | [neovim](https://github.com/neovim) + [NvChad](https://nvchad.com/) |
 | Launcher        | [wofi](https://github.com/SimplyCEO/wofi?tab=readme-ov-file) |
-| Fonts           | [Hack Nerd Font](https://www.nerdfonts.com/)   |
+| Font            | [Hack Nerd Font](https://www.nerdfonts.com/)   |
 | Bar             | [Waybar](https://github.com/Alexays/Waybar)    |
 | Colorscheme     | [Catppuccin Mocha](https://catppuccin.com/palette/) |
 
@@ -22,5 +22,6 @@ A backup of my Linux config files.
 
 ⚙️ Install and setup
 ------------------------------
-This repo provides automated scripts to help you quickly install dependencies and setup the configuration.
-Included is the script used for my previous setup, tailored for Void Linux, as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
+Prerequisites: git, base-devel
+This repository provides automated scripts to help you quickly install dependencies and setup the configuration.
+Also included is the script used for my previous setup, tailored for Void Linux, as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
