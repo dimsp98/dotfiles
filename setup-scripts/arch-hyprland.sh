@@ -1,6 +1,6 @@
 #!/bin/sh
 #Install packages
-sudo pacman -S --needed hyprland hyprlock hyprshot hyprpaper waybar thunar thunar-archive-plugin thunar-volman xarchiver wofi wlogout nwg-look
+sudo pacman -S --needed kitty hyprland hyprlock hyprshot hyprpaper waybar thunar thunar-archive-plugin thunar-volman xarchiver wofi wlogout nwg-look papirus-icon-theme
 
 #Symlink config files
 ln -sf $HOME/dotfiles/config/hypr/ $HOME/.config
