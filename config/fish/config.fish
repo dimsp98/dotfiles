@@ -16,7 +16,7 @@ end
 set -x MANROFFOPT "-c"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set -Ux TERMINAL kitty
-set -Ux EDITOR nvim
+set -gx EDITOR nvim
 
 # Set settings for https://github.com/franciscolourenco/done
 set -U __done_min_cmd_duration 10000

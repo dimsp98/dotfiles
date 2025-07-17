@@ -19,10 +19,16 @@ cmd mkdir ${{
 }}
 
 cmd open ${{
-    case $(file --mime-type "$f" -bL) in
-        text/*|application/json) $EDITOR "$f";;
-        *) xdg-open "$f" ;;
-    esac
+    # Get the MIME type of the file
+    set mime (file --mime-type "$f" -bL)
+
+    # Use a switch statement to determine how to open the file
+    switch $mime
+        case "text/*" "application/json"
+            $EDITOR "$f"
+        case '*'
+            xdg-open "$f"
+    end
 }}
 
 cmd mkfile ${{
@@ -108,12 +114,6 @@ cmd link %{{
 }}
 
 cmd share $curl -F"file=@$fx" https://0x0.st | xclip -selection c
-
-# Open with application
-cmd open-with-gui &$@ $fx ## opens with a gui application outside lf client
-cmd open-with-cli $$@ $fx ## opens with a cli application inside lf client
-map O push :open-with-gui<space> ## input application
-map o push :open-with-cli<space> ## input application
 
 # Bindings
 # Remove some defaults
