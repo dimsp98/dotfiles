@@ -1,0 +1,12 @@
+show=drun
+columns=1
+width=500
+allow_markup=true
+always_parse_args=true
+term=kitty
+gtk_dark=true
+prompt=
+hide_scroll=true
+insensitive=true
+allow_images=true
+image_size=24  
