@@ -15,14 +15,11 @@ sudo xbps-remove -R gnome-keyring
 echo "Setting folder Theme"
 papirus-folders -C cyan --theme Papirus-Dark
 
-# Install and apply my dotfiles
-cd ~/dotfiles && echo "Creating symlinks"
-git submodule update --init
-
-# Create symlinks using chezmoi
-chezmoi init https://github.com/dimsp98/dotfiles.git
-chezmoi cd
-chezmoi apply -v
+# Create symlinks using stow
+git clone https://github.com/dimsp98/dotfiles.git
+cd dotfiles
+stow -t $HOME/.config config
+sudo stow -t /usr/share share
 
 # Setup void-packages
 echo -e "Installing void-packages"
