@@ -1,7 +1,7 @@
 #!/bin/sh
 # Install Dependencies
 echo "Installing Dependencies"
-sudo xbps-install chezmoi acpi rustup pnpm kitty elogind rofi picom void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
+sudo xbps-install stow acpi rustup pnpm kitty elogind rofi picom void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
 
 sudo xbps-install void-repo-multilib void-repo-multilib-nonfree nodejs pnpm xorg base-devel git bat papirus-icon-theme papirus-folders lf ffmpeg ghostscript zip unzip gzip 
 
