@@ -219,29 +219,24 @@ if set -q __done_enabled
         set __done_initial_window_id (__done_get_focused_window_id)
     end
 
-   function __done_ended --on-event fish_postexec
-    set -l exit_status $status
+    function __done_ended --on-event fish_postexec
+        set -l exit_status $status
 
-    # Backwards compatibility for fish < v3.0
-    set -q cmd_duration; or set -l cmd_duration $CMD_DURATION
+        # backwards compatibility for fish < v3.0
+        set -q cmd_duration; or set -l cmd_duration $CMD_DURATION
 
-    # Skip notification if cmd_duration or min_cmd_duration is unset
-    if test -n "$cmd_duration"
-        and set -q __done_min_cmd_duration
-        and test $cmd_duration -gt $__done_min_cmd_duration
-        and not __done_is_process_window_focused
+        if test $cmd_duration
+            and test -n "$__done_min_cmd_duration"
+            and test $cmd_duration -gt $__done_min_cmd_duration # longer than notify_duration
+            and not __done_is_process_window_focused # process pane or window not focused
 
-        # don't notify if command matches exclude list
-        for pattern in $__done_exclude
-            if string match -qr $pattern $argv[1]
-                return
+            # don't notify if command matches exclude list
+            for pattern in $__done_exclude
+                if string match -qr $pattern $argv[1]
+                    return
+                end
             end
-        end
 
-        __done_notify $argv[1] $exit_status
-       end
-     end
-  
             # Store duration of last command
             set -l humanized_duration (__done_humanize_duration "$cmd_duration")
 
