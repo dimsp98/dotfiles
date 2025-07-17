@@ -20,10 +20,11 @@ cd ~/dotfiles && echo "Creating symlinks"
 git submodule update --init
 
 # Create symlinks using stow
-stow -t $HOME/.config config
-stow -t /usr/share/ fonts
-stow -t /usr/share/ icons
-stow -t /usr/share/ themes
+stow -t $HOME/.config .config/
+sudo stow -t /usr/share/icons icons
+sudo stow -t /usr/share/themes themes
+sudo stow --target=/usr/share/fonts fonts
+sudo stow -t /usr/share/sddm/themes sddm
 
 # Setup void-packages
 echo -e "Installing void-packages"
@@ -53,5 +54,5 @@ echo "HARDWARECLOCK="localtime"" | sudo tee /etc/rc.conf
 cd ~
 
 # Setting up services
-echo -e "Setting up servicces"
+echo -e "Setting up services"
 sudo ln -s /etc/sv/dbus /var/service
