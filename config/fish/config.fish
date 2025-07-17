@@ -1,7 +1,7 @@
 ## Start uwsm if allowed and not already running
-if uwsm check may-start; and uwsm select
-    exec uwsm start default
-end
+#if uwsm check may-start; and uwsm select
+#    exec uwsm start default
+#end
 
 ## Source from conf.d before our fish config
 source $HOME/.config/fish/conf.d/done.fish
