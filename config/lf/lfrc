@@ -1,5 +1,5 @@
-set cleaner ~/.config/lf/run_clean
-set previewer ~/.config/lf/run_preview_kitty
+set cleaner ~/.config/lf/clean
+set previewer ~/.config/lf/preview_kitty
 set ignorecase true
 set hidden true
 set icons true
