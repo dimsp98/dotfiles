@@ -1,12 +1,12 @@
-set previewer $HOME/.config/lf/preview_kitty
-set cleaner $HOME/.config/lf/clean
+set previewer ~/.config/lf/preview_kitty
+set cleaner ~/.config/lf/clean
 # Basic Settings
 set ignorecase true
 set hidden true
 set icons true
 set timefmt " 2006-01-02  15:04:05.000000000-0700"
 set promptfmt "\033[1;38;5;159m[ lf ] \033[38;5;159m%u@%h\033[38;5;159m:\033[38;5;256m%w/\033[0m"
-set shell bin/fish
+set shell /usr/bin/fish
 set truncatechar '⋯'
 
 # Yank Path
