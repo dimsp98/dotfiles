@@ -1,7 +1,7 @@
 #!/bin/sh
 # Install Dependencies
 echo "Installing Dependencies"
-sudo xbps-install stow acpi rustup pnpm kitty elogind rofi picom void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
+sudo xbps-install chezmoi acpi rustup pnpm kitty elogind rofi picom void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
 
 sudo xbps-install void-repo-multilib void-repo-multilib-nonfree nodejs pnpm xorg base-devel git bat papirus-icon-theme papirus-folders lf ffmpeg ghostscript zip unzip gzip 
 
@@ -15,11 +15,10 @@ sudo xbps-remove -R gnome-keyring
 echo "Setting folder Theme"
 papirus-folders -C cyan --theme Papirus-Dark
 
-# Create symlinks using stow
-git clone https://github.com/dimsp98/dotfiles.git
-cd dotfiles
-stow -t $HOME/.config config
-sudo stow -t /usr/share share
+# Create symlinks using chezmoi
+chezmoi init https://github.com/dimsp98/dotfiles.git
+chezmoi cd
+chezmoi apply -v
 
 # Setup void-packages
 echo -e "Installing void-packages"
