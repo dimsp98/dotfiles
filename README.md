@@ -8,7 +8,7 @@ A backup of my Linux config files.
 | Desktop         | [Hyprland](https://hypr.land/)                 |
 | Terminal        | [kitty](https://github.com/kovidgoyal/kitty)   |
 | Shell           | [fish](https://fishshell.com)                  |
-| Editor          | [neovim](https://github.com/neovim) + [NvChad](https://nvchad.com/) |
+| Editor          | [neovim](https://github.com/neovim)            |
 | Launcher        | [wofi](https://github.com/SimplyCEO/wofi?tab=readme-ov-file) |
 | Font            | [Hack Nerd Font](https://www.nerdfonts.com/)   |
 | Bar             | [Waybar](https://github.com/Alexays/Waybar)    |
