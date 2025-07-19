@@ -19,6 +19,7 @@ A backup of my Linux config files.
 <img width="1920" height="1080" alt="2025-07-14-203613_hyprshot" src="https://github.com/user-attachments/assets/657846cf-3194-431c-8ad6-fc13a4085677" />
 <img width="1920" height="1080" alt="2025-07-16-174658_hyprshot" src="https://github.com/user-attachments/assets/217195e9-72fe-44d0-9a1f-ab039fdaa248" />
 <img width="1920" height="1080" alt="2025-07-15-195426_hyprshot" src="https://github.com/user-attachments/assets/1c2788d0-0855-45e3-bb17-56cba8a838f6" />
+<img width="1920" height="1080" alt="2025-07-19-163156_hyprshot" src="https://github.com/user-attachments/assets/7f19f285-91c6-418b-a7ab-e1fc5ab60e35" />
 
 ⚙️ Install and setup
 ------------------------------
@@ -31,3 +32,8 @@ Ensure you have installed
 This repository provides automated scripts to help you quickly install dependencies and setup the configuration.
 To install the setup, just clone this repository using the command chezmoi init and rune one of the scripts.
 Also included is the script used for my previous setup, tailored for Void Linux, as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
+
+Credits
+-----------------------
+goolord for [alpha-nvim](https://github.com/goolord/alpha-nvim)
+[typecraft-dev](https://typecraft.dev/) for the nvim config and the helpful Neovim tutorials
