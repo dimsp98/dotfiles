@@ -2,13 +2,10 @@
 # Install Dependencies
 echo "Installing Dependencies"
 sudo xbps-install chezmoi acpi rustup pnpm kitty elogind rofi picom void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
-
 sudo xbps-install void-repo-multilib void-repo-multilib-nonfree nodejs pnpm xorg base-devel git bat papirus-icon-theme papirus-folders lf ffmpeg ghostscript zip unzip gzip 
-
 sudo xbps-install lxappearance libX11-devel libXinerama-devel libXft-devel xsetroot curl openssh wget bspwm htop pipewire pamixer pavucontrol ncmpcpp sxhkd xclip dunst vlc maim
-
 sudo xbps-install zig fish neovim polybar jsoncpp feh zathura-pdf-mupdf firefox
-
+sudo xbps-install thunar-volman gvfs gvfs-smb gvfs-mtp
 sudo xbps-remove -R gnome-keyring
 
 # Choose folder color
