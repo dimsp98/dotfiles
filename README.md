@@ -37,5 +37,8 @@ Also included is the script used for my previous setup, tailored for Void Linux,
 
 Credits
 -----------------------
-goolord for [alpha-nvim](https://github.com/goolord/alpha-nvim)
-[typecraft-dev](https://typecraft.dev/) for the nvim config and the helpful Neovim tutorials
+ • goolord for [alpha-nvim](https://github.com/goolord/alpha-nvim)
+      
+ • [typecraft-dev](https://typecraft.dev/) for the nvim config and the helpful Neovim tutorials
+      
+ • Wallpaper: https://wallhaven.cc/w/9m1jyx
