@@ -115,6 +115,13 @@ cmd link %{{
 
 cmd share $curl -F"file=@$fx" https://0x0.st | xclip -selection c
 
+cmd open-with-gui &$argv $fx # opens asynchronously, intended for GUI applications
+cmd open-with-tui $$argv $fx # opens synchronously, intended for TUI applications
+cmd open-with-cli %$argv $fx # opens synchronously and prints to the bottom statline, intended for CLI applications
+map O push :open-with-gui<space>
+map o push :open-with-tui<space>
+map <c-o> push :open-with-cli<space>
+
 # Bindings
 # Remove some defaults
 map m
