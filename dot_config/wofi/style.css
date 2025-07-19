@@ -10,7 +10,7 @@ window {
     background-color: #1e1e2e;
     color: #cdd6f4;
     border: 2px solid #74c7ec;
-    border-radius: 2px;
+    #border-radius: 2px;
     padding: 10px;
 }
 
