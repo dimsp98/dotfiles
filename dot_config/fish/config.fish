@@ -131,7 +131,7 @@ alias ga='git add'
 alias gp='git push'
 alias gc='git clone'
 alias sub='git submodule update --init'
-alias dot='cd $HOME/dotfiles/'
+alias dot='cd $HOME/.local/share/chezmoi'
 
 #compiling
 alias mk='sudo make install'
