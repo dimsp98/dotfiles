@@ -10,15 +10,17 @@ A backup of my Linux config files.
 | Shell           | [fish](https://fishshell.com)                  |
 | Editor          | [neovim](https://github.com/neovim)            |
 | Launcher        | [wofi](https://github.com/SimplyCEO/wofi?tab=readme-ov-file) |
+| File Manager    | [lf](https://github.com/gokcehan/lf)  with kitty previews    |
 | Font            | [Hack Nerd Font](https://www.nerdfonts.com/)   |
 | Bar             | [Waybar](https://github.com/Alexays/Waybar)    |
 | Colorscheme     | [Catppuccin Mocha](https://catppuccin.com/palette/) |
 
 📷 Screenshots
 ---------------------------------------
-<img width="1920" height="1080" alt="2025-07-14-203613_hyprshot" src="https://github.com/user-attachments/assets/657846cf-3194-431c-8ad6-fc13a4085677" />
-<img width="1920" height="1080" alt="2025-07-16-174658_hyprshot" src="https://github.com/user-attachments/assets/217195e9-72fe-44d0-9a1f-ab039fdaa248" />
-<img width="1920" height="1080" alt="2025-07-15-195426_hyprshot" src="https://github.com/user-attachments/assets/1c2788d0-0855-45e3-bb17-56cba8a838f6" />
+<img width="1920" height="1080" alt="2025-07-19-175143_hyprshot" src="https://github.com/user-attachments/assets/5290c13f-c115-4635-aa0b-4e9cdb7e9730" />
+<img width="1920" height="1080" alt="2025-07-19-175112_hyprshot" src="https://github.com/user-attachments/assets/8d09bb01-697e-4c9f-8c45-10a52cc53782" />
+<img width="1920" height="1080" alt="2025-07-19-175226_hyprshot" src="https://github.com/user-attachments/assets/544aef1f-f5b6-4767-a17c-f67cc1230f04" />
+<img width="1920" height="1080" alt="2025-07-19-175235_hyprshot" src="https://github.com/user-attachments/assets/6973de93-839e-4341-9215-03888ca682e4" />
 <img width="1920" height="1080" alt="2025-07-19-163156_hyprshot" src="https://github.com/user-attachments/assets/7f19f285-91c6-418b-a7ab-e1fc5ab60e35" />
 
 ⚙️ Install and setup
