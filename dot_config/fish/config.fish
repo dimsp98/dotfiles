@@ -132,7 +132,7 @@ alias gp='git push'
 alias gc='git clone'
 alias sub='git submodule update --init'
 alias dot='chezmoi cd'
-alias apply='chezmoi apply -v'
+alias cmap='chezmoi apply -v'
 
 #compiling
 alias mk='sudo make install'
