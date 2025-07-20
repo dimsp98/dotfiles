@@ -1,12 +1,18 @@
 #!/bin/sh
 # Install Dependencies
 echo "Installing Dependencies"
-sudo xbps-install chezmoi acpi rustup pnpm kitty elogind rofi picom void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
-sudo xbps-install void-repo-multilib void-repo-multilib-nonfree nodejs pnpm xorg base-devel git bat papirus-icon-theme papirus-folders lf ffmpeg ghostscript zip unzip gzip 
-sudo xbps-install lxappearance libX11-devel libXinerama-devel libXft-devel xsetroot curl openssh wget bspwm htop pipewire pamixer pavucontrol ncmpcpp sxhkd xclip dunst vlc maim
-sudo xbps-install zig fish neovim polybar jsoncpp feh zathura-pdf-mupdf firefox
-sudo xbps-install thunar-volman gvfs gvfs-smb gvfs-mtp
+sudo xbps-install chezmoi acpi kitty elogind void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
+sudo xbps-install void-repo-multilib void-repo-multilib-nonfree nodejs pnpm base-devel git bat papirus-icon-theme papirus-folders lf ffmpeg ghostscript zip unzip gzip 
+sudo xbps-install nwg-look curl openssh wget htop pipewire pamixer pavucontrol ncmpcpp dunst vlc
+sudo xbps-install fish neovim zathura-pdf-mupdf firefox
+sudo xbps-install thunar-volman gvfs gvfs-smb gvfs-mtp cliphist
 sudo xbps-remove -R gnome-keyring
+
+# Install Hyprland
+echo "Installing Hyprland"
+echo 'repository=https://raw.githubusercontent.com/Makrennel/hyprland-void/repository-x86_64-glibc' | sudo tee /etc/xbps.d/hyprland-void.conf
+sudo xbps-install -S hyprland hyprlock hyprshot hyprpaper hypridle xdg-desktop-portal-hyprland waybar
+xbps-query -Rs hypr
 
 # Choose folder color
 echo "Setting folder Theme"
@@ -27,14 +33,8 @@ echo XBPS_ALLOW_RESTRICTED=yes >>etc/conf
 # Change theme for bat
 bat cache --build
 
-# Change shell to zsh
-chsh -s /usr/bin/zsh && sudo chsh -s /usr/bin/zsh
-
-# NVim
-rustup toolchain install nightly
-sudo xbps-install tree-sitter zoxide lazygit ripgrep sqlite fd yarn lldb nvm gcc
-cd ~
-git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+# Change shell to fish
+chsh -s /usr/bin/fish && sudo chsh -s /usr/bin/fish
 
 # Configure fonts
 sudo ln -s /usr/share/fontconfig/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d/
