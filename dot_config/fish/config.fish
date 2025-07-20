@@ -6,10 +6,7 @@ end
 ## Source from conf.d before our fish config
 source $HOME/.config/fish/conf.d/done.fish
 
-## Set values
-## Run fastfetch as welcome message
 function fish_greeting
-	#    fastfetch
 end
 
 # Format man pages
@@ -126,29 +123,27 @@ alias update='sudo pacman -Syu'
 alias install='sudo pacman -S'
 alias remove='sudo pacman -Rns'
 
-#git
+# Git
 alias ga='git add'
 alias gp='git push'
 alias gc='git clone'
-alias sub='git submodule update --init'
 alias dot='chezmoi cd'
 alias cmap='chezmoi apply -v'
 
-#compiling
+# Void Linux XBPS
+alias xi='sudo xbps-install'
+alias xr='sudo xbps-remove -R'
+alias xup='sudo xbps-install -Suv'
+
+# Compiling
 alias mk='sudo make install'
 
-#neovim
+# Neovim
 alias v='nvim'
 alias sv='sudo nvim'
 
 # Get fastest mirrors
 alias mirror="sudo cachyos-rate-mirrors"
-
-# Help people new to Arch
-alias apt='man pacman'
-alias apt-get='man pacman'
-alias please='sudo'
-alias tb='nc termbin.com 9999'
 
 # Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns (pacman -Qtdq)'

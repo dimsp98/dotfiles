@@ -5,7 +5,7 @@ sudo xbps-install chezmoi acpi kitty elogind void-repo-nonfree xarchiver thunar-
 sudo xbps-install void-repo-multilib void-repo-multilib-nonfree nodejs pnpm base-devel git bat papirus-icon-theme papirus-folders lf ffmpeg ghostscript zip unzip gzip 
 sudo xbps-install nwg-look curl openssh wget htop pipewire pamixer pavucontrol ncmpcpp dunst vlc
 sudo xbps-install fish neovim zathura-pdf-mupdf firefox
-sudo xbps-install thunar-volman gvfs gvfs-smb gvfs-mtp cliphist
+sudo xbps-install thunar-volman eza gvfs gvfs-smb gvfs-mtp cliphist
 sudo xbps-remove -R gnome-keyring
 
 # Install Hyprland
