@@ -3,7 +3,6 @@
 #![enable(unwrap_variant_newtypes)]
 (
     cache_dir: Some("/tmp/rmpc/cache"),
-    lyrics_dir: Some("~/Music/mpd"),
     password: None,
     theme: "catppuccin_mocha",
     volume_step: 5,
