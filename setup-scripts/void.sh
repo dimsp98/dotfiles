@@ -11,7 +11,7 @@ sudo xbps-remove -R gnome-keyring
 # Install Hyprland
 echo "Installing Hyprland"
 echo 'repository=https://raw.githubusercontent.com/Makrennel/hyprland-void/repository-x86_64-glibc' | sudo tee /etc/xbps.d/hyprland-void.conf
-sudo xbps-install -S hyprland hyprlock hyprshot hyprpaper hypridle xdg-desktop-portal-hyprland waybar
+sudo xbps-install -S hyprland hyprlock hyprshot hyprpaper hypridle xdg-desktop-portal-hyprland waybar uwsm
 xbps-query -Rs hypr
 
 # Choose folder color
