@@ -166,3 +166,21 @@ tooltip label {
   padding: 5px;
   background-color: #181825;
 }
+
+#window {
+    font-family: JetBrainsMono Nerd Font, monospace;
+    font-size: 12px;
+    padding: 4px 8px;
+    margin: 4px 4px;
+    background-color: #b4befe;
+    color: #181825; /* Text color (Latte: #4c4f69, Mocha: #cdd6f4) */
+    border: none;
+    min-width: 60px;
+    text-shadow: 0 0 4px rgba(30, 30, 46, 0.6); /* Subtle glow for visibility */
+    }
+   
+    /* make window module transparent when no windows present */
+    window#waybar.empty #window {
+    background-color: transparent;
+   }
+
