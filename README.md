@@ -32,7 +32,7 @@ Ensure you have installed
     git base-devel chezmoi
 
 This repository provides automated scripts to help you quickly install dependencies and setup the configuration.
-To install the setup, just clone this repository using the command chezmoi init and rune one of the scripts.
+To install the setup, just clone this repository using the command chezmoi init and run one of the scripts.
 Also included is the script used for my previous setup, tailored for Void Linux, as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
 
 Credits
