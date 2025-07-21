@@ -3,7 +3,7 @@
 echo "Installing Dependencies"
 sudo xbps-install chezmoi acpi kitty elogind void-repo-nonfree xarchiver thunar-media-tags-plugin thunar-archive-plugin 
 sudo xbps-install void-repo-multilib void-repo-multilib-nonfree nodejs pnpm base-devel git bat papirus-icon-theme papirus-folders lf ffmpeg ghostscript zip unzip gzip 
-sudo xbps-install nwg-look curl openssh wget htop pipewire pamixer pavucontrol ncmpcpp dunst vlc
+sudo xbps-install nwg-look curl openssh wget htop pipewire pamixer pavucontrol rmpc dunst
 sudo xbps-install fish neovim zathura-pdf-mupdf firefox
 sudo xbps-install thunar-volman eza gvfs gvfs-smb gvfs-mtp cliphist
 sudo xbps-remove -R gnome-keyring
