@@ -14,6 +14,8 @@ A backup of my Linux config files.
 | Font            | [Hack Nerd Font](https://www.nerdfonts.com/)   |
 | Bar             | [Waybar](https://github.com/Alexays/Waybar)    |
 | Colorscheme     | [Catppuccin Mocha](https://catppuccin.com/palette/) |
+| Icons           | [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)    |
+| Dotfile Manager | [chezmoi](https://www.chezmoi.io)                     |
 
 📷 Screenshots
 ---------------------------------------
