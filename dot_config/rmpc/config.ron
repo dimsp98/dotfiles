@@ -5,7 +5,6 @@
     cache_dir: Some("/tmp/rmpc/cache"),
     password: None,
     theme: "catppuccin_mocha",
-    on_song_change: ["~/.config/rmpc/increment_play_count"], 
     volume_step: 5,
     max_fps: 30,
     scrolloff: 0,
