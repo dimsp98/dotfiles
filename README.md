@@ -43,7 +43,7 @@ To install the setup, just clone this repository using the following command
     chezmoi init https://github.com/dimsp98/dotfiles.git 
 
 and run one of the scripts.
-Also included is the script used for my previous setup, tailored for Void Linux, as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
+Also included are archived config files from my previous systems (based on i3, bspwm and herbstluftwm), as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
 
 Credits
 -----------------------
