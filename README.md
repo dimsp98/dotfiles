@@ -25,7 +25,7 @@ A backup of my Linux config files.
 <img width="1920" height="1080" alt="2025-07-21-205221_hyprshot" src="https://github.com/user-attachments/assets/662c4e50-c08d-4e23-b0d7-0b23ed0f7705" />
 <img width="1920" height="1080" alt="2025-07-21-205235_hyprshot" src="https://github.com/user-attachments/assets/cfb8dddf-5acf-4e60-973c-b58883f39cdd" />
 <img width="1920" height="1080" alt="rofi_hyprshot" src="https://github.com/user-attachments/assets/f9da6bc8-0ff2-45e1-9f57-548999d4f987" />
-<img width="1920" height="1080" alt="2025-07-23-210858_hyprshot" src="https://github.com/user-attachments/assets/b73b0440-0eb5-4f4b-8425-b79e815afd20" />
+<img width="1920" height="1080" alt="2025-07-23-222036_hyprshot" src="https://github.com/user-attachments/assets/8d9690fe-bb6e-4a2f-baf2-db8400593ca6" />
 <img width="1920" height="1080" alt="2025-07-19-175235_hyprshot" src="https://github.com/user-attachments/assets/6973de93-839e-4341-9215-03888ca682e4" />
 <img width="1920" height="1080" alt="2025-07-19-185959_hyprshot" src="https://github.com/user-attachments/assets/82a971e9-a193-4e81-8135-f68446773db5" />
 
