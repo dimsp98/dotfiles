@@ -14,6 +14,12 @@ return {
   },
   {
     "neovim/nvim-lspconfig",
+    dependencies = {
+      'mason-org/mason-lspconfig.nvim',
+      'WhoIsSethDaniel/mason-tool-installer.nvim',
+      { 'j-hui/fidget.nvim', opts = {} },
+      'saghen/blink.cmp',
+    },
     config = function ()
       local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
