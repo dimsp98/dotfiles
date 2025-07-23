@@ -17,7 +17,7 @@ if [[ ( "$theme" == *'type-1'* ) || ( "$theme" == *'type-3'* ) || ( "$theme" == 
 	list_col='1'
 	list_row='6'
 elif [[ ( "$theme" == *'type-2'* ) || ( "$theme" == *'type-4'* ) ]]; then
-	list_col='6'
+	list_col='5'
 	list_row='1'
 fi
 
