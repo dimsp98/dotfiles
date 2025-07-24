@@ -138,68 +138,6 @@
             "format": ""
         },
 
-        // Development
-        {
-            "type": "custom",
-            "key": "│{#red}┌──────────────┬{$1}┐{#keys}│\u001b[39D",
-            "format": "{#bright_red} Development "
-        },
-        {
-            "type": "command",
-            "keyIcon": "",
-            "key": "│{#red}│ {icon}  Rust      │{$4}│{#keys}│{$2}",
-            "text": "rustc --version | cut -d' ' -f2",
-            "format": "rustc {}"
-        },
-        {
-            "type": "command",
-            "keyIcon": "",
-            "key": "│{#red}│ {icon}  Clang     │{$4}│{#keys}│{$2}",
-            "text": "clang --version | head -1 | awk '{print $NF}'",
-            "format": "clang {}"
-        },
-        {
-            "type": "command",
-            "keyIcon": "",
-            "key": "│{#red}│ {icon}  NodeJS    │{$4}│{#keys}│{$2}",
-            "text": "node --version",
-            "format": "node {~1}"
-        },
-        {
-            "type": "command",
-            "keyIcon": "",
-            "key": "│{#red}│ {icon}  Go        │{$4}│{#keys}│{$2}",
-            "text": "go version | cut -d' ' -f3",
-            "format": "go {~2}"
-        },
-        {
-            "type": "command",
-            "keyIcon": "",
-            "key": "│{#red}│ {icon}  Zig       │{$4}│{#keys}│{$2}",
-            "text": "zig version",
-            "format": "zig {}"
-        },
-        {
-            "type": "editor",
-            "key": "│{#red}│ {icon}  Editor    │{$4}│{#keys}│{$2}"
-        },
-        {
-            "type": "command",
-            "keyIcon": "󰊢",
-            "key": "│{#red}│ {icon}  Git       │{$4}│{#keys}│{$2}",
-            "text": "git version",
-            "format": "git {~12}"
-        },
-        {
-            "type": "font",
-            "key": "│{#red}│ {icon}  Interface │{$4}│{#keys}│{$2}"
-        },
-        {
-            "type": "custom",
-            "key": "│{#red}└──────────────┴{$1}┘{#keys}│",
-            "format": ""
-        },
-
         // Uptime
         {
             "type": "custom",
@@ -209,12 +147,6 @@
         {
             "type": "uptime",
             "key": "│{#magenta}│ {icon}  Uptime    │{$4}│{#keys}│{$2}"
-        },
-        {
-            "type": "users",
-            "myselfOnly": true,
-            "keyIcon": "",
-            "key": "│{#magenta}│ {icon}  Login     │{$4}│{#keys}│{$2}"
         },
         {
             "type": "disk",
