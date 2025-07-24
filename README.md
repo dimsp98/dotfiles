@@ -9,7 +9,7 @@ A backup of my Linux config files.
 | Terminal        | [kitty](https://github.com/kovidgoyal/kitty)   |
 | Shell           | [fish](https://fishshell.com)                  |
 | Editor          | [neovim](https://github.com/neovim)            |
-| Launcher        | [rofi]([https://github.com/SimplyCEO/wofi?tab=readme-ov-file](https://github.com/lbonn/rofi)) |
+| Launcher        | [rofi-wayland](https://github.com/lbonn/rofi) |
 | File Manager    | [yazi](https://yazi-rs.github.io/)    |
 | Notification Daemon | [dunst](https://github.com/dunst-project/dunst)
 | Font            | [Hack Nerd Font](https://www.nerdfonts.com/)   |
@@ -21,8 +21,9 @@ A backup of my Linux config files.
 📷 Screenshots
 ---------------------------------------
 <img width="1920" height="1080" alt="2025-07-21-205353_hyprshot" src="https://github.com/user-attachments/assets/d6280896-889b-4f30-8313-2cfe582f800d" />
-<img width="1920" height="1080" alt="2025-07-24-220848_hyprshot" src="https://github.com/user-attachments/assets/0d88e17a-b3b7-4edf-8e27-a501ffc9204e" />
-<img width="1920" height="1080" alt="2025-07-24-220905_hyprshot" src="https://github.com/user-attachments/assets/06016580-0520-4c02-b0a2-ddd2c25dcdb1" />
+<img width="1911" height="1026" alt="2025-07-24-235454_hyprshot" src="https://github.com/user-attachments/assets/abfc1b7a-be48-4413-adbe-1e512b21be12" />
+<img width="1910" height="1027" alt="2025-07-24-235422_hyprshot" src="https://github.com/user-attachments/assets/e013a541-918a-4c31-94ff-ac9ab934c81c" />
+
 
 <img width="1920" height="1080" alt="2025-07-21-205221_hyprshot" src="https://github.com/user-attachments/assets/662c4e50-c08d-4e23-b0d7-0b23ed0f7705" />
 <img width="1920" height="1080" alt="2025-07-21-205235_hyprshot" src="https://github.com/user-attachments/assets/cfb8dddf-5acf-4e60-973c-b58883f39cdd" />
