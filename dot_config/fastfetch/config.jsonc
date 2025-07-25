@@ -59,6 +59,10 @@
             "type": "gpu"
         },
         {
+            "key": "║ {#34}󰍹 display {#keys}║",
+            "type": "display"
+        },
+        {
             "key": "║ {#34}󰉉 disk    {#keys}║",
             "type": "disk",
             "folders": "/"
