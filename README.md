@@ -35,12 +35,12 @@ Ensure you have installed
 
     git base-devel chezmoi
 
-This repository provides automated scripts to help you quickly install dependencies and setup the configuration.
+This repository provides an automated script to help you quickly install dependencies and setup the configuration.
 To install the setup, just clone this repository using the following command 
       
     chezmoi init https://github.com/dimsp98/dotfiles.git 
 
-and run one of the scripts.
+and run one the script.
 Also included are archived config files from my previous systems (based on i3, bspwm and herbstluftwm), as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
 
 Credits
