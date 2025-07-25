@@ -50,16 +50,24 @@
             "type": "shell"
         },
         {
-            "key": "║ {#33}󰍛 cpu     {#keys}║",
+            "key": "║ {#33}󰉼 theme   {#keys}║",
+            "type": "theme"
+        },
+        {
+            "key": "║ {#34}󰀻 icons   {#keys}║",
+            "type": "icons"
+        },
+        {
+            "key": "║ {#35}󰍛 cpu     {#keys}║",
             "type": "cpu",
             "showPeCoreCount": true
         },
          {
-            "key": "║ {#34}󰍛 gpu     {#keys}║",
+            "key": "║ {#36}󰍛 gpu     {#keys}║",
             "type": "gpu"
         },
         {
-            "key": "║ {#34}󰍹 display {#keys}║",
+            "key": "║ {#37}󰍹 display {#keys}║",
             "type": "display"
         },
         {
