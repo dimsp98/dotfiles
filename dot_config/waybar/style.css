@@ -151,8 +151,8 @@ window#waybar.hidden {
   background-color: #f38ba8; 
   color: #1e1e2e;    
   border-radius: 8px;
-  padding: 4px 8px;
-  margin: 4px 4px;
+  margin: 6px 3px;
+  padding: 6px 12px;
   font-size: 12px;  
 }
 
@@ -170,8 +170,8 @@ tooltip label {
 #window {
     font-family: JetBrainsMono Nerd Font, monospace;
     font-size: 12px;
-    padding: 4px 8px;
-    margin: 4px 4px;
+    margin: 6px 3px;
+    padding: 6px 12px;
     background-color: #b4befe;
     color: #181825; /* Text color (Latte: #4c4f69, Mocha: #cdd6f4) */
     border: none;
