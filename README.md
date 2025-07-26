@@ -64,4 +64,4 @@ Credits
       
  • [typecraft-dev](https://typecraft.dev/) for the nvim config and the helpful Neovim tutorials
       
- • Wallpaper: https://wallhaven.cc/w/9m1jyx
+ • Wallpaper: [Wallhaven](https://wallhaven.cc/w/9m1jyx)
