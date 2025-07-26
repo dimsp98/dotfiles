@@ -25,8 +25,8 @@ return {
   {
     "neovim/nvim-lspconfig",
     dependencies = {
-      'mason-org/mason-lspconfig.nvim',
-      'WhoIsSethDaniel/mason-tool-installer.nvim',
+      "mason-org/mason-lspconfig.nvim",
+      "WhoIsSethDaniel/mason-tool-installer.nvim",
       { 'j-hui/fidget.nvim', opts = {} },
       'saghen/blink.cmp',
     },
@@ -46,6 +46,12 @@ return {
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
+       lspconfig.tailwindcss.setup({
+         capabilities = capabilities
+       })
+       lspconfig.ruby_lsp.setup({
+         capabilities = capabilities,
+       })
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'gd', vim.lsp.buf.definition, {})
       vim.keymap.set({ 'n', 'v' }, '<leader>ca', vim.lsp.buf.code_action, {})
