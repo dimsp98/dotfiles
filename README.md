@@ -29,19 +29,28 @@ A backup of my Linux config files.
 
 ⚙️ Install and setup
 ------------------------------
-Prerequisites:
------
-Ensure you have installed
-
-    git base-devel chezmoi
 
 This repository provides an automated script to help you quickly install dependencies and setup the configuration.
-To install the setup, just clone this repository using the following command 
-      
-    chezmoi init https://github.com/dimsp98/dotfiles.git 
+To install the setup, follow these steps:
 
-and run one the script.
-Also included are archived config files from my previous systems (based on i3, bspwm and herbstluftwm), as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
+1) Ensure you have installed
+
+       git base-devel chezmoi
+
+
+2) Clone the repository using chezmoi
+      
+       chezmoi init https://github.com/dimsp98/dotfiles.git && chezmoi cd 
+
+3) Run the script
+
+       ./setup-scripts/arch-hyprland.sh
+
+to automatically install dependencies and apply all of the included config files.
+
+Archive
+---------------
+In the archive directory, I have included old config files from my previous systems (based on i3, bspwm and herbstluftwm), as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
 
 Credits
 -----------------------
