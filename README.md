@@ -50,7 +50,13 @@ to automatically install dependencies and apply all of the included config files
 
 Archive
 ---------------
-In the archive directory, I have included old config files from my previous systems (based on i3, bspwm and herbstluftwm), as well as a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
+In the archive directory, I have included old config files from my previous systems, based on
+
+ - i3
+ - bspwm
+ - herbstluftwm
+
+You can also find a script to install and setup my [patched dwm config](https://github.com/dimsp98/dwm).
 
 Credits
 -----------------------
