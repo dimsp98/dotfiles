@@ -9,9 +9,9 @@ A backup of my Linux config files.
 | Terminal        | [kitty](https://github.com/kovidgoyal/kitty)   |
 | Shell           | [fish](https://fishshell.com)                  |
 | Editor          | [neovim](https://github.com/neovim)            |
-| Launcher        | [rofi-wayland](https://github.com/lbonn/rofi) |
-| File Manager    | [yazi](https://yazi-rs.github.io/)    |
-| Notification Daemon | [dunst](https://github.com/dunst-project/dunst)
+| Launcher        | [rofi](https://github.com/davatorium/rofi)     |
+| File Manager    | [yazi](https://yazi-rs.github.io/)             |
+| Notification Daemon | [dunst](https://github.com/dunst-project/dunst) | 
 | Font            | [Hack Nerd Font](https://www.nerdfonts.com/)   |
 | Bar             | [Waybar](https://github.com/Alexays/Waybar)    |
 | Colorscheme     | [Catppuccin Mocha](https://catppuccin.com/palette/) |
