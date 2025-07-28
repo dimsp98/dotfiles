@@ -20,7 +20,7 @@ A backup of my Linux config files.
 
 📷 Screenshots
 ---------------------------------------
-<img width="1920" height="1080" alt="2025-07-28-212045_hyprshot" src="https://github.com/user-attachments/assets/432019ab-3935-49f1-ad4c-55989c164d01" />
+<img width="1920" height="1080" alt="2025-07-28-215018_hyprshot" src="https://github.com/user-attachments/assets/21d0dbbf-8d23-4132-b1a5-a2cc6e50e9d0" />
 <img width="1920" height="1080" alt="2025-07-26-184504_hyprshot" src="https://github.com/user-attachments/assets/c2b219d6-69b3-4bbe-a92b-a28b71cc69d3" />
 <img width="1920" height="1080" alt="2025-07-25-201306_hyprshot" src="https://github.com/user-attachments/assets/62040a0a-ec38-484d-bebe-836f8c4b513c" />
 <img width="1920" height="1080" alt="2025-07-25-201354_hyprshot" src="https://github.com/user-attachments/assets/20d5ae06-fdf9-40a2-9166-5fd675ebde1d" />
