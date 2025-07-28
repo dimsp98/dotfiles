@@ -26,6 +26,12 @@ TOOLS=(
   git
 )
 
+# Maintenance tools
+MAINTENANCE=(
+btrfs-assistant
+snapper
+limine-snapper-sync
+)
 
 # hyprland
 HYPR=(
