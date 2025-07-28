@@ -9,17 +9,7 @@ $directory\
 [](fg:sapphire bg:green)\
 $git_branch\
 $git_status\
-[](fg:green bg:teal)\
-$c\
-$rust\
-$golang\
-$nodejs\
-$php\
-$java\
-$kotlin\
-$haskell\
-$python\
-[](fg:teal bg:blue)\
+[](fg:green bg:blue)\
 $time\
 [](fg:blue)\
 $line_break$character"""
