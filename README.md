@@ -8,6 +8,7 @@ A backup of my Linux config files.
 | Desktop         | [Hyprland](https://hypr.land/)                 |
 | Terminal        | [kitty](https://github.com/kovidgoyal/kitty)   |
 | Shell           | [fish](https://fishshell.com)                  |
+| Shell prompt    | [starship](https://starship.rs/)               |
 | Editor          | [neovim](https://github.com/neovim)            |
 | Launcher        | [rofi](https://github.com/davatorium/rofi)     |
 | File Manager    | [yazi](https://yazi-rs.github.io/)             |
