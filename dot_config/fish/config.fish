@@ -3,6 +3,9 @@ if uwsm check may-start; and uwsm select
     exec uwsm start default
 end
 
+# Starship
+starship init fish | source
+
 ## Source from conf.d before our fish config
 source $HOME/.config/fish/conf.d/done.fish
 
@@ -14,6 +17,7 @@ set -x MANROFFOPT "-c"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set -Ux TERMINAL kitty
 set -gx EDITOR nvim
+set -x STARSHIP_CONFIG $HOME/.config/starship.toml
 
 # Set settings for https://github.com/franciscolourenco/done
 set -U __done_min_cmd_duration 10000
