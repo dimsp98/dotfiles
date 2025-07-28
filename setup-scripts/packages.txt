@@ -1,0 +1,87 @@
+# System utilities
+SYSTEM_UTILS=(
+  base-devel
+  htop
+  btop
+  lazygit
+  chezmoi
+  fastfetch
+  fzf
+  zip
+  unzip
+  wget
+  curl
+  networkmanager
+)
+
+# Development tools
+TOOLS=(
+  vim
+  yazi
+  bat
+  fish
+  neovim
+  starship
+  kitty
+  git
+)
+
+
+# hyprland
+HYPR=(
+  hyprland
+  hyprpaper
+  hyprlock
+  hypridle
+  cliphist
+  rofi
+  waybar
+  wlogout
+  papirus-icon-theme
+  nwg-look
+  dunst
+  hyprpolkitagent
+)
+
+# Audio
+AUDIO=(
+pipewire
+pipewire-audio
+wireplumber
+pipewire-pulse
+)
+
+
+# Media packages
+MEDIA=(
+  mpv
+  hyprshot
+  feh
+  ristretto
+)
+
+# File Management
+FILE_MANAGEMENT=(
+yazi
+thunar
+thunar-volman
+thunar-archive-plugin
+tumbler
+gvfs
+gvfs-smb
+gvfs-mtp
+xarchiver
+)
+
+# Office
+OFFICE=(
+libreoffice-fresh
+onlyoffice-bin
+zotero
+zathura-pdf-mupdf
+)
+
+# Services to enable
+SERVICES=(
+  NetworkManager.service
+)

@@ -6,6 +6,7 @@ sudo pacman -Syu --noconfirm
 if ! command -v paru &> /dev/null; then
   echo "Installing yay AUR helper..."
 sudo pacman -S --needed base-devel
+rm -rf $HOME/paru
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si --noconfirm
@@ -14,9 +15,39 @@ else
   fi
 
 # Install packages
-sudo pacman -S --noconfirm --needed chezmoi kitty hyprland hyprlock hyprshot hyprpaper waybar nvim lf thunar thunar-archive-plugin fish starship thunar-volman gvfs gvfs-smb gvfs-mtp xarchiver rofi wlogout dunst nwg-look papirus-icon-theme cliphist uwsm mpd rmpc xcb-imdkit meson hyprpolkitagent
+source $HOME/.local/share/chezmoi/setup-scripts/packages.txt
+  echo "Installing system utilities..."
+  paru -S --needed --noconfirm "${SYSTEM_UTILS[@]}"
+  
+  echo "Installing development tools"
+  paru -S --needed --noconfirm "${TOOLS[@]}"
+  
+  echo "Installing Hyprland Packages"
+  paru -S --needed --noconfirm "${HYPR[@]}"
 
-# Symlink config files
-chezmoi init https://github.com/dimsp98/dotfiles.git
+  echo "Installing Audio Packages"
+  paru -S --needed --noconfirm "${AUDIO[@]}"
+
+  echo "Installing office software"
+  paru -S --needed --noconfirm "${OFFICE[@]}"
+  
+  echo "Installing media packages"
+  paru -S --needed --noconfirm "${MEDIA[@]}"
+  
+  echo "Installing file manager"
+  paru -S --needed --noconfirm "${FILE_MANAGEMENT[@]}"
+
+# Enable services
+  echo "Configuring services..."
+  for service in "${SERVICES[@]}"; do
+    if ! systemctl is-enabled "$service" &> /dev/null; then
+      echo "Enabling $service..."
+      sudo systemctl enable "$service"
+    else
+      echo "$service is already enabled"
+    fi
+  done
+
+# Apply config files
 chezmoi cd
 chezmoi apply -v
