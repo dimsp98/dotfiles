@@ -13,7 +13,7 @@ A backup of my Linux config files.
 | Launcher        | [rofi](https://github.com/davatorium/rofi)     |
 | File Manager    | [yazi](https://yazi-rs.github.io/)             |
 | Notification Daemon | [dunst](https://github.com/dunst-project/dunst) | 
-| Font            | [Hack Nerd Font](https://www.nerdfonts.com/)   |
+| Font            | [JetBrains Mono Nerd Font](https://www.nerdfonts.com/)   |
 | Bar             | [Waybar](https://github.com/Alexays/Waybar)    |
 | Colorscheme     | [Catppuccin Mocha](https://catppuccin.com/palette/) |
 | Icons           | [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)    |
@@ -21,8 +21,8 @@ A backup of my Linux config files.
 
 📷 Screenshots
 ---------------------------------------
-<img width="1920" height="1080" alt="2025-07-29-164055_hyprshot" src="https://github.com/user-attachments/assets/439d5bb1-0ace-4b5b-b1c1-cd681e7f04c5" />
-<img width="1920" height="1080" alt="2025-07-26-184504_hyprshot" src="https://github.com/user-attachments/assets/c2b219d6-69b3-4bbe-a92b-a28b71cc69d3" />
+<img width="1920" height="1080" alt="2025-07-29-173436_hyprshot" src="https://github.com/user-attachments/assets/25574808-676d-4748-a391-bf4feb664b34" />
+<img width="1920" height="1080" alt="2025-07-29-173656_hyprshot" src="https://github.com/user-attachments/assets/df0dbc1f-ab61-4649-827b-9d1166a8a58a" />
 <img width="1920" height="1080" alt="2025-07-25-201306_hyprshot" src="https://github.com/user-attachments/assets/62040a0a-ec38-484d-bebe-836f8c4b513c" />
 <img width="1920" height="1080" alt="2025-07-25-201354_hyprshot" src="https://github.com/user-attachments/assets/20d5ae06-fdf9-40a2-9166-5fd675ebde1d" />
 <img width="1920" height="1080" alt="2025-07-25-201236_hyprshot" src="https://github.com/user-attachments/assets/e04f861c-4956-4df0-a737-1db06fe7f3f1" />
