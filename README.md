@@ -21,7 +21,8 @@ A backup of my Linux config files.
 
 📷 Screenshots
 ---------------------------------------
-<img width="1920" height="1080" alt="2025-07-29-194600_hyprshot" src="https://github.com/user-attachments/assets/e6c7543e-f59a-4bf2-9848-87646c32f0ad" />
+<img width="1920" height="1080" alt="2025-07-29-204711_hyprshot" src="https://github.com/user-attachments/assets/95821119-1fef-43fd-ae0d-72866acc0cce" />
+<img width="1920" height="1080" alt="2025-07-29-204842_hyprshot" src="https://github.com/user-attachments/assets/aa728ff8-09e2-48b5-85c8-b013ad9d9de9" />
 <img width="1920" height="1080" alt="2025-07-29-173656_hyprshot" src="https://github.com/user-attachments/assets/df0dbc1f-ab61-4649-827b-9d1166a8a58a" />
 <img width="1920" height="1080" alt="2025-07-25-201306_hyprshot" src="https://github.com/user-attachments/assets/62040a0a-ec38-484d-bebe-836f8c4b513c" />
 <img width="1920" height="1080" alt="2025-07-25-201354_hyprshot" src="https://github.com/user-attachments/assets/20d5ae06-fdf9-40a2-9166-5fd675ebde1d" />
