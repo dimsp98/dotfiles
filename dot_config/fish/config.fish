@@ -131,8 +131,12 @@ alias remove='sudo pacman -Rns'
 alias ga='git add'
 alias gp='git push'
 alias gc='git clone'
+
+# Chezmoi
 alias dot='chezmoi cd'
 alias cmap='chezmoi apply -v'
+alias cmdiff='chezmoi diff'
+alias cmup='chezmoi update -v'
 
 # Void Linux XBPS
 alias xi='sudo xbps-install'
