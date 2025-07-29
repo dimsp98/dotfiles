@@ -5,8 +5,8 @@ A backup of my Linux config files.
 | Spec            | Details                                        |
 | --------------- | --------------------------------------         |
 | OS              | [CachyOS](https://cachyos.org/)                |
-| Desktop         | [Hyprland](https://hypr.land/)                 |
-| Terminal        | [kitty](https://github.com/kovidgoyal/kitty)   |
+| Desktop         | [hyprland](https://hypr.land/)                 |
+| Terminal        | [ghostty](https://ghostty.org/)   |
 | Shell           | [fish](https://fishshell.com)                  |
 | Shell prompt    | [starship](https://starship.rs/)               |
 | Editor          | [neovim](https://github.com/neovim)            |
@@ -21,7 +21,7 @@ A backup of my Linux config files.
 
 📷 Screenshots
 ---------------------------------------
-<img width="1920" height="1080" alt="2025-07-29-212621_hyprshot" src="https://github.com/user-attachments/assets/a65e45df-4f07-45c8-a6c1-111ce9de37ce" />
+<img width="1920" height="1080" alt="2025-07-29-225412_hyprshot" src="https://github.com/user-attachments/assets/a3eaa8bc-09c1-4df9-a7c9-99e68c2e957a" />
 <img width="1920" height="1080" alt="2025-07-29-204842_hyprshot" src="https://github.com/user-attachments/assets/aa728ff8-09e2-48b5-85c8-b013ad9d9de9" />
 <img width="1920" height="1080" alt="2025-07-29-173656_hyprshot" src="https://github.com/user-attachments/assets/df0dbc1f-ab61-4649-827b-9d1166a8a58a" />
 <img width="1920" height="1080" alt="2025-07-25-201306_hyprshot" src="https://github.com/user-attachments/assets/62040a0a-ec38-484d-bebe-836f8c4b513c" />
