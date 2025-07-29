@@ -21,6 +21,7 @@ $lua\
 $haskell\
 $python\
 [](fg:green bg:sapphire)\
+$shell\
 $conda\
 [](fg:sapphire bg:lavender)\
 $time\
@@ -143,6 +144,14 @@ format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
 symbol = ""
 style = "bg:sapphire"
 format = '[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)'
+
+[shell]
+fish_indicator = " 󰈺 "
+powershell_indicator = ' _ '
+unknown_indicator = 'mystery shell'
+style = "fg:crust bg:sapphire"
+format = '[$indicator]($style)'
+disabled = false
 
 [conda]
 symbol = "  "
