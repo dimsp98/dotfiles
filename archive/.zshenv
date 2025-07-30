@@ -9,7 +9,7 @@ export VISUAL="nvim"
 export TERMINAL="kitty"
 export BROWSER="/usr/bin/firefox"
 export VIDEO="mpv"
-export IMAGE="ueberzug"
+export IMAGE="kitty"
 export OPENER="xdg-open"
 
 #export
