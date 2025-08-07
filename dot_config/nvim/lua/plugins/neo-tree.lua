@@ -15,6 +15,15 @@ return {
       "nvim-neo-tree/neo-tree.nvim", -- makes sure that this loads after Neo-tree.
     },
     config = function()
+      require('neo-tree').setup {
+  filesystem = {
+    filtered_items = {
+      visible = true,
+      hide_dotfiles = false,
+      hide_gitignored = true,
+    }
+}
+},
       require("lsp-file-operations").setup()
     end,
   },
@@ -22,15 +31,6 @@ return {
     "s1n7ax/nvim-window-picker",
     version = "2.*",
     config = function()
-require('neo-tree').setup {
-  filesystem = {
-    filtered_items = {
-      visible = true,
-      hide_dotfiles = false,
-      hide_gitignored = true,
-vim.keymap.set('n', '<leader>n', ':Neotree filesystem reveal left<CR>', {})
-  end
-    },
       require("window-picker").setup({
         filter_rules = {
           include_current_win = false,
