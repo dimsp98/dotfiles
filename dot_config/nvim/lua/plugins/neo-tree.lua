@@ -23,6 +23,7 @@ return {
       hide_gitignored = true,
     }
 }
+vim.keymap.set('n', '<leader>n', ':Neotree filesystem reveal left<CR>', {})
 }
       require("lsp-file-operations").setup()
     end,
