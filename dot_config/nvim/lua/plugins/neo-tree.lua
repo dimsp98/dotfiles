@@ -23,7 +23,7 @@ return {
       hide_gitignored = true,
     }
 }
-},
+}
       require("lsp-file-operations").setup()
     end,
   },
