@@ -14,7 +14,7 @@ SYSTEM_UTILS=(
   networkmanager
 )
 
-# Development tools
+# Terminal tools
 TOOLS=(
   vim
   yazi
@@ -24,6 +24,7 @@ TOOLS=(
   starship
   foot
   git
+  zoxide
 )
 
 # Maintenance tools
