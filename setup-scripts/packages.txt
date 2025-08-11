@@ -22,7 +22,7 @@ TOOLS=(
   fish
   neovim
   starship
-  kitty
+  foot
   git
 )
 
