@@ -15,7 +15,7 @@ end
 # Format man pages
 set -x MANROFFOPT "-c"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
-set -Ux TERMINAL kitty
+set -Ux TERMINAL foot
 set -gx EDITOR nvim
 set -x STARSHIP_CONFIG $HOME/.config/starship.toml
 
