@@ -21,6 +21,7 @@ return {
         },
         win_options = {
           winbar = "%{v:lua.CustomOilBar()}",
+          signcolumn = "yes:2",
         },
         view_options = {
           show_hidden = true,
