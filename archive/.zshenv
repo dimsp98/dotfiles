@@ -9,14 +9,13 @@ export VISUAL="nvim"
 export TERMINAL="foot"
 export BROWSER="/usr/bin/firefox"
 export VIDEO="mpv"
-export IMAGE="kitty"
 export OPENER="xdg-open"
 
 #export
 export XDG_CONFIG_HOME="$HOME/.config"
 export ZDOTDIR="$HOME/.config/zsh"
 export PATH="$HOME/.local/bin":$PATH
-export TERM="xterm-kitty"
+export TERM="foot"
 
 #pfetch
 export PF_INFO="ascii title kernel os wm uptime pkgs memory"
