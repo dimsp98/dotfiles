@@ -45,6 +45,7 @@ HYPR=(
   waybar
   wlogout
   papirus-icon-theme
+  catppuccin-cursors-mocha
   dunst
   hyprpolkitagent
 )
