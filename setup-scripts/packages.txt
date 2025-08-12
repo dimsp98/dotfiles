@@ -45,7 +45,6 @@ HYPR=(
   waybar
   wlogout
   papirus-icon-theme
-  nwg-look
   dunst
   hyprpolkitagent
 )
