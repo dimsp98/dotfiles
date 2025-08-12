@@ -146,6 +146,7 @@ style = "bg:sapphire"
 format = '[[ $symbol( $context) ](fg:crust bg:sapphire)]($style)'
 
 [shell]
+zsh_indicator = '_ '
 fish_indicator = ' 󰈺 '
 powershell_indicator = '_ '
 unknown_indicator = 'mystery shell'
