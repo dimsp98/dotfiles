@@ -28,6 +28,10 @@ source $HOME/.local/share/chezmoi/setup-scripts/packages.txt
   echo "Installing Audio Packages"
   paru -S --needed --noconfirm "${AUDIO[@]}"
 
+  echo "Installing Fonts"
+  paru -S --needed --noconfirm "${FONTS[@]}"
+
+
   echo "Installing office software"
   paru -S --needed --noconfirm "${OFFICE[@]}"
   

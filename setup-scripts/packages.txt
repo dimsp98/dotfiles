@@ -88,6 +88,14 @@ zotero
 zathura-pdf-mupdf
 )
 
+#Fonts
+FONTS=(
+ttf-jetbrains-mono-nerd
+ttf-hack-nerd
+ttf-iosevka-nerd
+ttf-roboto-mono-nerd
+ttf-iosevka-term-nerd
+)
 # Services to enable
 SERVICES=(
   NetworkManager.service
