@@ -2,5 +2,7 @@
 *.bak
 *.log
 *.tmp
+archive/zsh/.histfile
+archive/zsh/.zcompdump
 .cache/
 local/
