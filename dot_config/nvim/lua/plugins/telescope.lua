@@ -6,7 +6,7 @@ return {
       'jonarrien/telescope-cmdline.nvim',
     },
   keys = {
-    { 'Q', '<cmd>Telescope cmdline<cr>', desc = 'Cmdline' }
+    { 'Q', '<cmd>Telescope cmdline<cr>', desc = 'Cmdline' },
     { '<leader><leader>', '<cmd>Telescope cmdline<cr>', desc = 'Cmdline' }
   },
   config = function ()
