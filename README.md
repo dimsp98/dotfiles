@@ -63,5 +63,3 @@ Credits
  • goolord for [alpha-nvim](https://github.com/goolord/alpha-nvim)
       
  • [typecraft-dev](https://typecraft.dev/) for the Neovim config and the helpful customization tutorials
-      
- • Wallpaper: [Wallhaven](https://wallhaven.cc/w/9m1jyx)
