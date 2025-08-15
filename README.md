@@ -21,13 +21,11 @@ A backup of my Linux config files.
 
 📷 Screenshots
 ---------------------------------------
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d5bd151-6aa8-4c86-b40b-3a38db36c542" />
-<img width="1920" height="1080" alt="2025-07-29-204842_hyprshot" src="https://github.com/user-attachments/assets/aa728ff8-09e2-48b5-85c8-b013ad9d9de9" />
-<img width="1920" height="1080" alt="2025-08-15-171016_hyprshot" src="https://github.com/user-attachments/assets/fd2d7e9d-23d3-4817-9209-56dd010dee44" />
-<img width="1920" height="1080" alt="2025-07-25-201306_hyprshot" src="https://github.com/user-attachments/assets/62040a0a-ec38-484d-bebe-836f8c4b513c" />
-<img width="1920" height="1080" alt="2025-07-25-201354_hyprshot" src="https://github.com/user-attachments/assets/20d5ae06-fdf9-40a2-9166-5fd675ebde1d" />
-<img width="1920" height="1080" alt="2025-07-25-201236_hyprshot" src="https://github.com/user-attachments/assets/e04f861c-4956-4df0-a737-1db06fe7f3f1" />
-
+<img width="1920" height="1080" alt="2025-08-15-210710_hyprshot" src="https://github.com/user-attachments/assets/d3a77eb6-d55b-4995-b45c-530a03451983" />
+<img width="1920" height="1080" alt="2025-08-15-211317_hyprshot" src="https://github.com/user-attachments/assets/43f2b229-6d92-4901-97e2-ad5afad785e8" />
+<img width="1920" height="1080" alt="2025-08-15-211431_hyprshot" src="https://github.com/user-attachments/assets/2c25c3b5-92ca-4f63-a39e-3666c06e6c79" />
+<img width="1920" height="1080" alt="2025-08-15-211023_hyprshot" src="https://github.com/user-attachments/assets/aeb3f74b-7d73-4dbd-814d-f346737b316c" />
+<img width="1920" height="1080" alt="2025-08-15-211032_hyprshot" src="https://github.com/user-attachments/assets/0f82c6b4-6d91-4613-a88d-94dba850dc0f" />
 
 ⚙️ Install and setup
 ------------------------------
