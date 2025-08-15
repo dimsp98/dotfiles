@@ -20,8 +20,12 @@
             "type": "kernel"
         },
         {
-            "key": "{#36}󰇄 desktop{#keys}",
+            "key": "{#36}󰇄 desktop {#keys}",
             "type": "de"
+        },
+        {
+            "key": "{#96} packages {#keys}",
+            "type": "packages"
         },
         {
             "key": "{#31} term   {#keys}",
@@ -32,7 +36,7 @@
             "type": "shell"
         },
         {
-            "key": "{#32} font   {#keys}",
+            "key": "{#93} font   {#keys}",
             "type": "terminalfont"
         },
          {
