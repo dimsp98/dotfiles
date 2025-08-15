@@ -23,7 +23,7 @@ A backup of my Linux config files.
 ---------------------------------------
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8d5bd151-6aa8-4c86-b40b-3a38db36c542" />
 <img width="1920" height="1080" alt="2025-07-29-204842_hyprshot" src="https://github.com/user-attachments/assets/aa728ff8-09e2-48b5-85c8-b013ad9d9de9" />
-<img width="1920" height="1080" alt="2025-07-29-173656_hyprshot" src="https://github.com/user-attachments/assets/df0dbc1f-ab61-4649-827b-9d1166a8a58a" />
+<img width="1920" height="1080" alt="2025-08-15-171016_hyprshot" src="https://github.com/user-attachments/assets/fd2d7e9d-23d3-4817-9209-56dd010dee44" />
 <img width="1920" height="1080" alt="2025-07-25-201306_hyprshot" src="https://github.com/user-attachments/assets/62040a0a-ec38-484d-bebe-836f8c4b513c" />
 <img width="1920" height="1080" alt="2025-07-25-201354_hyprshot" src="https://github.com/user-attachments/assets/20d5ae06-fdf9-40a2-9166-5fd675ebde1d" />
 <img width="1920" height="1080" alt="2025-07-25-201236_hyprshot" src="https://github.com/user-attachments/assets/e04f861c-4956-4df0-a737-1db06fe7f3f1" />
