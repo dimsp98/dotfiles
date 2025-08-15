@@ -16,15 +16,15 @@ return {
     },
     config = function()
       require('neo-tree').setup {
-  filesystem = {
-    filtered_items = {
+      filesystem = {
+      filtered_items = {
       visible = true,
       hide_dotfiles = false,
       hide_gitignored = true,
-    }
-}
-}
-vim.keymap.set('n', '<leader>n', ':Neotree filesystem reveal left<CR>', {})
+      }
+      }
+      }
+      vim.keymap.set('n', '<leader>n', '<Cmd>Neotree filesystem reveal left<CR>', {desc = 'Reveal Filesystem'})
       require("lsp-file-operations").setup()
     end,
   },
