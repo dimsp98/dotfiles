@@ -1,10 +1,12 @@
 return {
    'akinsho/bufferline.nvim', version = "*", 
    dependencies = { 'nvim-tree/nvim-web-devicons', },
+   after = "catppuccin",
     config = function ()
     local bufferline = require('bufferline')
     bufferline.setup {
      options = {
+            highlights = require("catppuccin.groups.integrations.bufferline").get(),
             mode = "buffers", -- set to "tabs" to only show tabpages instead
             style_preset = bufferline.style_preset.default, -- or bufferline.style_preset.minimal,
             themable = true, -- allows highlight groups to be overriden i.e. sets highlights as default
