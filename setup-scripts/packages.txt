@@ -12,6 +12,7 @@ SYSTEM_UTILS=(
   wget
   curl
   networkmanager
+  uwsm
 )
 
 # Terminal tools
