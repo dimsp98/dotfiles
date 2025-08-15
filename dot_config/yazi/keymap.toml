@@ -130,6 +130,8 @@ keymap = [
 	{ on = [ "g", "D" ],       run = "cd ~/Documents",                  desc = "Go to the documents directory" },
  	{ on = [ "g", "p" ],       run = "cd ~/Pictures",                   desc = "Go to the pictures directory" },
  	{ on = [ "g", "r" ],       run = "cd ~/.local/share/chezmoi",       desc = "Go to the dotfiles directory" },
+ 	{ on = [ "g", "l" ],       run = "cd ~/.local/share",               desc = "Go to .local/share directory" },
+ 	{ on = [ "g", "u" ],       run = "cd /usr/share",                   desc = "Go to /usr/share directory" },
  	{ on = [ "g", "s" ],       run = "cd ~/Sync",                       desc = "Go to the syncthing directory" },
   { on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 	{ on = [ "g", "f" ],       run = "follow",           desc = "Follow hovered symlink" },
