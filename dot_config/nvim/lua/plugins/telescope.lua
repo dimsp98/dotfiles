@@ -6,7 +6,7 @@ return {
       'jonarrien/telescope-cmdline.nvim',
     },
   keys = {
-    { '<leader>cm', '<cmd>Telescope cmdline<cr>', desc = 'Cmdline' }
+    { 'Q', '<cmd>Telescope cmdline<cr>', desc = 'Cmdline' }
   },
   config = function ()
     local builtin = require('telescope.builtin')
