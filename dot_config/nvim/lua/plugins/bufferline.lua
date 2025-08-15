@@ -76,16 +76,8 @@ return {
             pick = {
               alphabet = "abcdefghijklmopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZ1234567890",
             },  
-            highlights = require("catppuccin.groups.integrations.bufferline").get({
-            styles = { "italic", "bold" },
-           custom = {
-           all = {
-           fill = { bg = "#1e1e2e" }, -- Catppuccin Mocha base
-               },
-               },
-              }),
-
         },
+          highlights = require("catppuccin.groups.integrations.bufferline").get(),
       }
     vim.keymap.set('n', '<leader>bn', '<Cmd>enew<CR>', {desc = "New Buffer"})
     vim.keymap.set('n', '<leader>bc', '<Cmd>BufferLinePickClose<CR>', { desc = "Pick buffer to close" })
