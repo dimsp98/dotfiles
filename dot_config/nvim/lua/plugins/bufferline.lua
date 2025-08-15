@@ -6,7 +6,6 @@ return {
     local bufferline = require('bufferline')
     bufferline.setup {
      options = {
-            highlights = require("catppuccin.groups.integrations.bufferline").get(),
             mode = "buffers", -- set to "tabs" to only show tabpages instead
             style_preset = bufferline.style_preset.default, -- or bufferline.style_preset.minimal,
             themable = true, -- allows highlight groups to be overriden i.e. sets highlights as default
@@ -77,6 +76,15 @@ return {
             pick = {
               alphabet = "abcdefghijklmopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZ1234567890",
             },  
+            highlights = require("catppuccin.groups.integrations.bufferline").get({
+            styles = { "italic", "bold" },
+           custom = {
+           all = {
+           fill = { bg = "#1e1e2e" }, -- Catppuccin Mocha base
+               },
+               },
+              }),
+
         },
       }
     vim.keymap.set('n', '<leader>bn', '<Cmd>enew<CR>', {desc = "New Buffer"})
