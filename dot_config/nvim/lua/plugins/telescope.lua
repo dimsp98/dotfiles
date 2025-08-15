@@ -6,12 +6,12 @@ return {
       'jonarrien/telescope-cmdline.nvim',
     },
   keys = {
-    { '<leader><leader>', '<cmd>Telescope cmdline<cr>', desc = 'Cmdline' }
+    { '<leader>cm', '<cmd>Telescope cmdline<cr>', desc = 'Cmdline' }
   },
   config = function ()
     local builtin = require('telescope.builtin')
     vim.keymap.set('n', '<C-p>', builtin.find_files, {desc = 'Find files from current directory'})
-    vim.keymap.set('n', '<leader>cm', builtin.live_grep, {desc = 'Fuzzy find with telescope'})
+    vim.keymap.set('n', '<leader>fg', builtin.live_grep, {desc = 'Fuzzy find with telescope'})
   end
 },
   {
