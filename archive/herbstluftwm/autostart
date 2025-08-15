@@ -15,12 +15,12 @@ xrandr --output DP-0 --primary --mode 1920x1080 --rate 144 --rotate normal &
 xset s off &
 xset -dpms &
 pgrep -x picom >/dev/null || picom --config $HOME/.config/picom/picom.conf &
-feh --bg-scale --no-fehbg $HOME/dotfiles/Backgrounds/wallhaven-xlr71v_3840x2160.png &
+feh --bg-scale --no-fehbg $HOME/Pictures/wallhaven-9m1jyx_3840x2160.png &
 xclip &
 nm-applet &
 setxkbmap -model pc104 -layout us,gr -option 'grp:alt_shift_toggle' &
 pgrep -x dunst >/dev/null || dunst -c $HOME/.config/dunst/dunstrc &
-pgrep -x sxhkd >/dev/null || sxhkd -c $HOME/.config/sxhkd/sxhkdrc &
+pgrep -x sxhkd >/dev/null || sxhkd -c $HOME/.config/herbstluftwm/sxhkdrc &
 
 # remove all existing keybindings
 hc keyunbind --all
