@@ -81,14 +81,6 @@ gvfs-mtp
 xarchiver
 )
 
-# Office
-OFFICE=(
-libreoffice-fresh
-onlyoffice-bin
-zotero
-zathura-pdf-mupdf
-)
-
 #Fonts
 FONTS=(
 ttf-jetbrains-mono-nerd
