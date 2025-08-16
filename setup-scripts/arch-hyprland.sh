@@ -37,6 +37,10 @@ source $HOME/.local/share/chezmoi/setup-scripts/packages.txt
   echo "Installing file manager"
   paru -S --needed --noconfirm "${FILE_MANAGEMENT[@]}"
 
+# Apply dotfiles with chezmoi
+chezmoi init https://github.com/dimsp98/dotfiles.git 
+chezmoi apply -v
+
 # Enable services
   echo "Configuring services..."
   for service in "${SERVICES[@]}"; do
