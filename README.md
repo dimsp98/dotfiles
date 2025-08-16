@@ -10,7 +10,7 @@ A backup of my Linux config files.
 | Shell           | [fish](https://fishshell.com)                  |
 | Shell prompt    | [starship](https://starship.rs/)               |
 | Editor          | [neovim](https://github.com/neovim)            |
-| Launcher        | [rofi](https://github.com/davatorium/rofi)     |
+| Launcher        | [rofi](https://github.com/lbonn/rofi)     |
 | File Manager    | [yazi](https://yazi-rs.github.io/)             |
 | Notification Daemon | [dunst](https://github.com/dunst-project/dunst) | 
 | Font            | [JetBrains Mono Nerd Font](https://www.nerdfonts.com/)   |
@@ -24,8 +24,9 @@ A backup of my Linux config files.
 <img width="1920" height="1080" alt="2025-08-15-210710_hyprshot" src="https://github.com/user-attachments/assets/d3a77eb6-d55b-4995-b45c-530a03451983" />
 <img width="1920" height="1080" alt="2025-08-15-211317_hyprshot" src="https://github.com/user-attachments/assets/43f2b229-6d92-4901-97e2-ad5afad785e8" />
 <img width="1920" height="1080" alt="2025-08-15-211431_hyprshot" src="https://github.com/user-attachments/assets/2c25c3b5-92ca-4f63-a39e-3666c06e6c79" />
-<img width="1920" height="1080" alt="2025-08-16-115230_hyprshot" src="https://github.com/user-attachments/assets/84ae67d9-f1e2-4a4e-b3cc-23e462a2b9e5" />
-<img width="1920" height="1080" alt="2025-08-16-115253_hyprshot" src="https://github.com/user-attachments/assets/95c8b865-4853-4d41-a5d9-d5974d620b05" />
+<img width="1920" height="1080" alt="2025-08-16-152120_hyprshot" src="https://github.com/user-attachments/assets/2d4295d8-51be-42c5-8599-2b2ff2ab07da" />
+<img width="1920" height="1080" alt="2025-08-16-151819_hyprshot" src="https://github.com/user-attachments/assets/2de1f845-0426-453f-8b7c-4525cd90b6d1" />
+<img width="1920" height="1080" alt="2025-08-16-151838_hyprshot" src="https://github.com/user-attachments/assets/7820df5b-fde8-486f-bf89-19e2cc38a79f" />
 
 ⚙️ Install and setup
 ------------------------------
