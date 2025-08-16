@@ -34,7 +34,7 @@
 }
 
 window#waybar {
-  background-color: @base;
+  background-color: rgba(30, 30, 46, 0.85); /* subtle transparency */
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -54,24 +54,24 @@ window#waybar.hidden {
   padding: 6px 18px;
   margin: 6px 3px;
   border-radius: 4px;
-  background-color: rgba(49, 50, 68, 1);
+  background-color: rgba(49, 50, 68, 0.85);
   color: rgba(205, 214, 244, 1);
 }
 
 #workspaces button.active {
   color: rgba(30, 30, 46, 1);
-  background-color: @green;
+  background-color: rgba(166, 227, 161, 0.9);
 }
 
 #workspaces button:hover {
   box-shadow: inherit;
   text-shadow: inherit;
   color: rgba(30, 30, 46, 1);
-  background-color: rgba(205, 214, 244, 1);
+  background-color: rgba(205, 214, 244, 0.9);
 }
 
 #workspaces button.urgent {
-  background-color: rgba(243, 139, 168, 1);
+  background-color: rgba(243, 139, 168, 0.9);
 }
 
 #memory,
@@ -81,11 +81,13 @@ window#waybar.hidden {
 #wireplumber,
 #network,
 #clock,
-#tray {
+#tray,
+#language,
+#window {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
-  background-color: rgba(30, 30, 46, 1);
+  background-color: rgba(30, 30, 46, 0.85);
   color: rgba(24, 24, 37, 1);
 }
 
@@ -103,49 +105,49 @@ window#waybar.hidden {
 }
 
 #memory {
-  background-color: rgba(250, 179, 135, 1);
+  background-color: rgba(250, 179, 135, 0.9);
 }
 
 #battery {
-  background-color: rgba(243, 139, 168, 1);
+  background-color: rgba(243, 139, 168, 0.9);
 }
 
 #battery.warning,
 #battery.critical,
 #battery.urgent {
-  background-color: @red;
-  color: @yellow;
+  background-color: rgba(243, 139, 168, 0.95);
+  color: rgba(249, 226, 175, 1);
 }
 
 #battery.charging {
-  background-color: rgba(166, 227, 161, 1);
+  background-color: rgba(166, 227, 161, 0.9);
   color: rgba(24, 24, 37, 1);
 }
 
 #backlight {
-  background-color: rgba(250, 179, 135, 1);
+  background-color: rgba(250, 179, 135, 0.9);
 }
 
 #wireplumber {
-  background-color: rgba(249, 226, 175, 1);
+  background-color: rgba(249, 226, 175, 0.9);
 }
 
 #network {
-  background-color: rgba(148, 226, 213, 1);
+  background-color: rgba(148, 226, 213, 0.9);
   padding-right: 17px;
 }
 
 #clock {
   font-family: JetBrainsMono Nerd Font;
-  background-color: rgba(116, 199, 236, 1);
+  background-color: rgba(116, 199, 236, 0.9);
 }
 
 #custom-power {
-  background-color: rgba(242, 205, 205, 1);
+  background-color: rgba(242, 205, 205, 0.9);
 }
 
 #language {
-  background-color: rgba(243, 139, 168, 1);
+  background-color: rgba(243, 139, 168, 0.9);
   color: rgba(30, 30, 46, 1);
   border-radius: 8px;
   margin: 6px 3px;
@@ -156,12 +158,12 @@ window#waybar.hidden {
 tooltip {
   border-radius: 8px;
   padding: 15px;
-  background-color: rgba(24, 24, 37, 1);
+  background-color: rgba(24, 24, 37, 0.9);
 }
 
 tooltip label {
   padding: 5px;
-  background-color: rgba(24, 24, 37, 1);
+  background-color: rgba(24, 24, 37, 0.9);
 }
 
 #window {
@@ -169,7 +171,7 @@ tooltip label {
   font-size: 12px;
   margin: 6px 3px;
   padding: 6px 12px;
-  background-color: rgba(180, 190, 254, 1);
+  background-color: rgba(180, 190, 254, 0.9);
   color: rgba(24, 24, 37, 1);
   border: none;
   min-width: 60px;
