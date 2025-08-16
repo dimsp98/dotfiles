@@ -42,7 +42,7 @@ HYPR=(
   hyprlock
   hypridle
   cliphist
-  rofi
+  rofi-wayland
   waybar
   wlogout
   papirus-icon-theme
