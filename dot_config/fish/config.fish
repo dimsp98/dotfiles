@@ -9,12 +9,11 @@ starship init fish | source
 ## Source from conf.d before our fish config
 source $HOME/.config/fish/conf.d/done.fish
 
-function fish_greeting
-end
-
 # Format man pages
 set -x MANROFFOPT "-c"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
+
+# Default programs
 set -Ux TERMINAL foot
 set -gx EDITOR nvim
 set -x STARSHIP_CONFIG $HOME/.config/starship.toml
@@ -35,14 +34,6 @@ if test -d ~/.local/bin
         set -p PATH ~/.local/bin
     end
 end
-
-# Add depot_tools to PATH
-if test -d ~/Applications/depot_tools
-    if not contains -- ~/Applications/depot_tools $PATH
-        set -p PATH ~/Applications/depot_tools
-    end
-end
-
 
 ## Functions
 # Functions needed for !! and !$ https://github.com/oh-my-fish/plugin-bang-bang
@@ -101,6 +92,9 @@ alias la='eza -a --color=always --group-directories-first --icons'  # all files 
 alias ll='eza -l --color=always --group-directories-first --icons'  # long format
 alias lt='eza -aT --color=always --group-directories-first --icons' # tree listing
 alias l.="eza -a | grep -e '^\.'"                                     # show only dotfiles
+
+#Replace find with fd 
+alias find='fd'
 
 # Common use
 alias grubup="sudo grub-mkconfig -o /boot/grub/grub.cfg"
