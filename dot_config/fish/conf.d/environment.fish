@@ -1,7 +1,7 @@
 set -g fish_greeting
 
 # Default programs 
-set -Ux TERMINAL foot 
+set -gx TERMINAL foot 
 set -gx EDITOR nvim 
 set -x STARSHIP_CONFIG $HOME/.config/starship.toml
 
