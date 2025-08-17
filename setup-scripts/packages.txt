@@ -1,7 +1,6 @@
 # System utilities
 SYSTEM_UTILS=(
   base-devel
-  htop
   bottom
   lazygit
   chezmoi
