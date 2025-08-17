@@ -9,6 +9,7 @@ SYSTEM_UTILS=(
   fzf
   zip
   unzip
+  git
   wget
   curl
   networkmanager
@@ -17,7 +18,6 @@ SYSTEM_UTILS=(
 
 # Terminal tools
 TOOLS=(
-  vim
   yazi
   bat
   fish
@@ -26,13 +26,15 @@ TOOLS=(
   foot
   git
   zoxide
+  fd
+  eza
 )
 
 # Maintenance tools
 MAINTENANCE=(
-btrfs-assistant
-snapper
-limine-snapper-sync
+  btrfs-assistant
+  snapper
+  limine-snapper-sync
 )
 
 # hyprland
@@ -53,10 +55,10 @@ HYPR=(
 
 # Audio
 AUDIO=(
-pipewire
-pipewire-audio
-wireplumber
-pipewire-pulse
+  pipewire
+  pipewire-audio
+  wireplumber
+  pipewire-pulse
 )
 
 
