@@ -2,7 +2,7 @@
 SYSTEM_UTILS=(
   base-devel
   htop
-  btop
+  bottom
   lazygit
   chezmoi
   fastfetch
