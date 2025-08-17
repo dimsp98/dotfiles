@@ -23,7 +23,7 @@ set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
 # Default programs
 set -Ux TERMINAL foot
-set -gx EDITOR nvim
+set -Ux EDITOR nvim
 set -x STARSHIP_CONFIG $HOME/.config/starship.toml
 
 # Directories
