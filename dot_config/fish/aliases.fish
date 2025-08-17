@@ -33,27 +33,28 @@ alias install='sudo pacman -S'
 alias remove='sudo pacman -Rns'
 
 # Git
-alias ga='git add'
-alias gp='git push'
-alias gc='git clone'
+abbr -a ga git add
+abbr -a gp git push
+abbr -a gc git clone
+abbr -a lg lazygit
 
 # Chezmoi
 alias dot='chezmoi cd'
-alias cmap='chezmoi apply -v'
-alias cmdiff='chezmoi diff'
-alias cmup='chezmoi update -v'
+abbr -a cmap chezmoi apply -v
+abbr -a cmdiff chezmoi diff
+abbr -a cmup chezmoi update -v
 
 # Void Linux XBPS
-alias xi='sudo xbps-install'
-alias xr='sudo xbps-remove -R'
-alias xup='sudo xbps-install -Suv'
+abbr -a xi sudo xbps-install
+abbr -a xr sudo xbps-remove -R
+abbr -a xup sudo xbps-install -Suv
 
 # Compiling
 alias mk='sudo make install'
 
 # Neovim
-alias v='nvim'
-alias sv='sudo nvim'
+abbr -a v nvim
+abbr -a sv sudo nvim
 
 # Get fastest mirrors
 alias mirror="sudo cachyos-rate-mirrors"
