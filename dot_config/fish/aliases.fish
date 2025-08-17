@@ -50,7 +50,7 @@ abbr -a xr sudo xbps-remove -R
 abbr -a xup sudo xbps-install -Suv
 
 # Compiling
-alias mk='sudo make install'
+abbr -a mk sudo make install
 
 # Neovim
 abbr -a v nvim
@@ -67,4 +67,3 @@ alias jctl="journalctl -p 3 -xb"
 
 # Recent installed packages
 alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
-
