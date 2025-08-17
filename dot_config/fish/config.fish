@@ -22,8 +22,6 @@ set -x MANROFFOPT "-c"
 set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
 
 # Default programs
-set -Ux TERMINAL foot
-set -Ux EDITOR nvim
 set -x STARSHIP_CONFIG $HOME/.config/starship.toml
 
 # Directories
@@ -31,10 +29,6 @@ set -gx XDG_CONFIG_HOME $HOME/.config
 set -gx XDG_DATA_HOME $HOME/.local/share
 set -gx XDG_CACHE_HOME $HOME/.cache
 set -gx XDG_RUNTIME_DIR /run/user/(id -u)
-
-# Set settings for https://github.com/franciscolourenco/done
-set -U __done_min_cmd_duration 10000
-set -U __done_notification_urgency_level low
 
 # Add ~/.local/bin to PATH
 if test -d ~/.local/bin
