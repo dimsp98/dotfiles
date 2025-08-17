@@ -24,7 +24,7 @@ if not status is-interactive
     exit
 end
 
-set -g __done_version 1.19.1
+set -g __done_version 1.20.0
 
 function __done_run_powershell_script
     set -l powershell_exe (command --search "powershell.exe")
@@ -83,7 +83,10 @@ function __done_get_focused_window_id
         and type -q jq
         swaymsg --type get_tree | jq '.. | objects | select(.focused == true) | .id'
     else if test -n "$HYPRLAND_INSTANCE_SIGNATURE"
-        hyprctl activewindow | awk '/^\tpid: / {print $2}'
+        hyprctl activewindow | awk 'NR==1 {print $2}'
+    else if test -n "$NIRI_SOCKET"
+        and type -q jq
+        niri msg --json focused-window | jq ".id"
     else if begin
             test "$XDG_SESSION_DESKTOP" = gnome; and type -q gdbus
         end
@@ -152,13 +155,11 @@ function __done_is_process_window_focused
         string match --quiet --regex "^true" (swaymsg -t get_tree | jq ".. | objects | select(.id == "$__done_initial_window_id") | .visible")
         return $status
     else if test -n "$HYPRLAND_INSTANCE_SIGNATURE"
-        set window_pid (hyprctl activewindow | awk '/^\tpid: / {print $2}')
-        if test -n "$window_pid"
-            and test $__done_initial_window_id -eq $window_pid
-            return $status
-        else
-            return 1
-        end
+        and test $__done_initial_window_id = (hyprctl activewindow | awk 'NR==1 {print $2}')
+        return $status
+    else if test -n "$NIRI_SOCKET"
+        and test $__done_initial_window_id = (niri msg --json focused-window | jq ".id")
+        return $status
     else if test "$__done_initial_window_id" != "$__done_focused_window_id"
         return 1
     end
@@ -226,7 +227,6 @@ if set -q __done_enabled
         set -q cmd_duration; or set -l cmd_duration $CMD_DURATION
 
         if test $cmd_duration
-            and test -n "$__done_min_cmd_duration"
             and test $cmd_duration -gt $__done_min_cmd_duration # longer than notify_duration
             and not __done_is_process_window_focused # process pane or window not focused
 
@@ -274,7 +274,6 @@ if set -q __done_enabled
                 set -l message (string replace --all '"' '\"' "$message")
                 set -l title (string replace --all '"' '\"' "$title")
 
-                osascript -e "display notification \"$message\" with title \"$title\""
                 if test "$__done_notify_sound" -eq 1
                     osascript -e "display notification \"$message\" with title \"$title\" sound name \"Glass\""
                 else

@@ -1,21 +1,4 @@
 set -g fish_greeting
-## Start uwsm if allowed and not already running
-if status is-login
-    if command -q uwsm
-        if uwsm check may-start; and uwsm select
-            exec uwsm start default
-        end
-    end
-end
-
-# Starship
-starship init fish | source
-
-## Source from conf.d before our fish config
-source $HOME/.config/fish/conf.d/done.fish
-
-# Source aliases
-source $HOME/.config/fish/aliases.fish
 
 # Format man pages
 set -x MANROFFOPT "-c"
