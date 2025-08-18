@@ -51,3 +51,6 @@ source $HOME/.local/share/chezmoi/setup-scripts/packages.txt
 # Apply dotfiles with chezmoi
 chezmoi init https://github.com/dimsp98/dotfiles.git 
 chezmoi apply -v
+
+# Install fish plugins
+fish -c 'fisher install < $HOME/.config/fish/fish_plugins'

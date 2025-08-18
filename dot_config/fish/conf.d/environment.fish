@@ -20,6 +20,9 @@ set -U __done_min_cmd_duration 5000
 set -U __done_notification_urgency_level low
 set -U __done_notification_urgency_level_failure normal
 
+# Plugins 
+set -U fish_plugins patrickf1/fzf.fish franciscolourenco/done
+
 # Add ~/.local/bin to PATH
 if test -d ~/.local/bin
     if not contains -- ~/.local/bin $PATH
