@@ -1,9 +1,9 @@
 # Cursor
 export XCURSOR_SIZE=24
-export XCURSOR_THEME=Catppuccin-Mocha-Sapphire
-export HYPRCURSOR_THEME=Catppuccin-Mocha-Sapphire
+export XCURSOR_THEME=catppuccin-mocha-sapphire-cursors
+export HYPRCURSOR_THEME=catppuccin-mocha-sapphire-cursors
 export HYPRCURSOR_SIZE=24
-export GTK_CURSOR_THEME_NAME=Catppuccin-Mocha-Sapphire
+export GTK_CURSOR_THEME_NAME=catppuccin-mocha-sapphire-cursors
 
 # GTK
 export GTK_THEME=Catppuccin-Mocha-Standard-Sapphire-Dark
