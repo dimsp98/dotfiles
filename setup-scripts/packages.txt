@@ -37,7 +37,18 @@ MAINTENANCE=(
   limine-snapper-sync
 )
 
-# hyprland
+# Theming
+THEME=(
+kvantum
+kvantum-qt5
+qt5ct
+qt6ct
+nwg-look
+papirus-icon-theme
+catppuccin-cursors-mocha
+)
+
+# Hyprland
 HYPR=(
   hyprland
   hyprpaper
@@ -47,8 +58,6 @@ HYPR=(
   rofi-wayland
   waybar
   wlogout
-  papirus-icon-theme
-  catppuccin-cursors-mocha
   dunst
   hyprpolkitagent
 )

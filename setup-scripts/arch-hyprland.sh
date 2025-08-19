@@ -22,13 +22,16 @@ source $HOME/.local/share/chezmoi/setup-scripts/packages.txt
   echo "Installing development tools"
   paru -S --needed --noconfirm "${TOOLS[@]}"
   
-  echo "Installing Hyprland Packages"
+  echo "Installing hyprland packages"
   paru -S --needed --noconfirm "${HYPR[@]}"
 
-  echo "Installing Audio Packages"
+  echo "Installing theming tools"
+  paru -S --needed --noconfirm "${THEME[@]}"
+
+  echo "Installing audio packages"
   paru -S --needed --noconfirm "${AUDIO[@]}"
 
-  echo "Installing Fonts"
+  echo "Installing fonts"
   paru -S --needed --noconfirm "${FONTS[@]}"
   
   echo "Installing media packages"
