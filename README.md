@@ -27,6 +27,7 @@ A backup of my Linux config files.
 <img width="1920" height="1080" alt="2025-08-16-151819_hyprshot" src="https://github.com/user-attachments/assets/2de1f845-0426-453f-8b7c-4525cd90b6d1" />
 <img width="1920" height="1080" alt="2025-08-16-151838_hyprshot" src="https://github.com/user-attachments/assets/7820df5b-fde8-486f-bf89-19e2cc38a79f" />
 <img width="1920" height="1080" alt="2025-08-16-152120_hyprshot" src="https://github.com/user-attachments/assets/2d4295d8-51be-42c5-8599-2b2ff2ab07da" />
+<img width="1920" height="1080" alt="2025-08-19-221852_hyprshot" src="https://github.com/user-attachments/assets/58d8bd71-c832-4b7f-90fc-c32130afa9ff" />
 
 ⚙️ Install and setup
 ------------------------------
