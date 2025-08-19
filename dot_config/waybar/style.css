@@ -76,6 +76,9 @@ window#waybar.hidden {
 
 #memory,
 #custom-power,
+#custom-logo,
+#cpu,
+#temperature,
 #battery,
 #backlight,
 #wireplumber,
@@ -92,7 +95,9 @@ window#waybar.hidden {
 }
 
 #custom-power {
-  margin-right: 6px;
+  margin-right: 10px;
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #custom-logo {
@@ -104,12 +109,42 @@ window#waybar.hidden {
   color: rgba(116, 199, 236, 1);
 }
 
+#cpu {
+  background-color: rgba(203, 166, 247, 0.9); /* mauve */
+  color: rgba(30, 30, 46, 1);
+  margin: 6px 3px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+#temperature {
+  background-color: rgba(243, 139, 168, 0.9); /* red */
+  color: rgba(30, 30, 46, 1);
+  margin: 6px 3px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#temperature.critical {
+  background-color: rgba(235, 160, 172, 0.95); /* maroon for critical temps */
+  color: rgba(249, 226, 175, 1);
+  margin: 6px 3px;
+  padding: 6px 12px;
+}
+
 #memory {
   background-color: rgba(250, 179, 135, 0.9);
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #battery {
   background-color: rgba(243, 139, 168, 0.9);
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #battery.warning,
@@ -117,42 +152,58 @@ window#waybar.hidden {
 #battery.urgent {
   background-color: rgba(243, 139, 168, 0.95);
   color: rgba(249, 226, 175, 1);
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #battery.charging {
   background-color: rgba(166, 227, 161, 0.9);
   color: rgba(24, 24, 37, 1);
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #backlight {
   background-color: rgba(250, 179, 135, 0.9);
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #wireplumber {
   background-color: rgba(249, 226, 175, 0.9);
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #network {
   background-color: rgba(148, 226, 213, 0.9);
   padding-right: 17px;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #clock {
   font-family: JetBrainsMono Nerd Font;
   background-color: rgba(116, 199, 236, 0.9);
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #custom-power {
   background-color: rgba(242, 205, 205, 0.9);
+  margin: 6px 3px;
+  padding: 6px 12px;
 }
 
 #language {
-  background-color: rgba(243, 139, 168, 0.9);
+  background-color: rgba(137, 180, 250, 0.9); 
   color: rgba(30, 30, 46, 1);
-  border-radius: 8px;
   margin: 6px 3px;
   padding: 6px 12px;
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 tooltip {

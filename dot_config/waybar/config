@@ -16,9 +16,11 @@
        "clock"
     ],
         "modules-right": [
-        "hyprland/language",
         "tray",
+        "hyprland/language",
+        "cpu",
         "memory",
+        "temperature",
         "network",
         "wireplumber",
         "battery",
@@ -33,7 +35,7 @@
         "tooltip-format": "{title}"
     },
      "hyprland/language": {
-      "format": "󰌌 {}",
+      "format": " {}",
       "format-gr": "GR",
       "format-en": "US",
       "on-click": "hyprctl switchxkblayout sonix-usb-device-keyboard next"
@@ -77,11 +79,19 @@
     "format": "{}",
     "on-empty": "hide"
     },
-
+    "cpu":{
+    "interval": 5,
+    "format": " {usage}%",
+    },
     "memory": {
         "interval": 5,
-        "format": " {}%",
+        "format": " {}%",
         "max-length": 10
+    },
+    "temperature": {
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input", // adapt for your hardware
+    "critical-threshold": 80,
+    "format": "{temperatureC}°C "
     },
     "tray": {
         "spacing": 10
