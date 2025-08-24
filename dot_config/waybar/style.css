@@ -107,6 +107,7 @@ window#waybar.hidden {
   font-size: 15px;
   border-radius: 8px 0px 0px 8px;
   color: rgba(116, 199, 236, 1);
+  background-color: transparent;
 }
 
 #cpu {
