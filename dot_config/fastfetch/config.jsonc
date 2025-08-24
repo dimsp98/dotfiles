@@ -12,65 +12,65 @@
     },
    "modules": [
        {
-            "key": "{#34}{icon} distro {#keys}",
+            "key": "{#34}{icon} distro  {#keys}",
             "type": "os"
         },
         {
-            "key": "{#35} kernel {#keys}",
+            "key": "{#35} kernel  {#keys}",
             "type": "kernel"
         },
         {
-            "key": "{#36}󰇄 desktop {#keys}",
+            "key": "{#36}󰇄 desktop  {#keys}",
             "type": "de"
         },
         {
-            "key": "{#96} packages {#keys}",
+            "key": "{#96} pkgs    {#keys}",
             "type": "packages"
         },
         {
-            "key": "{#31} term   {#keys}",
+            "key": "{#31} term    {#keys}",
             "type": "terminal"
         },
         {
-            "key": "{#32} shell  {#keys}",
+            "key": "{#32} shell   {#keys}",
             "type": "shell"
         },
         {
-            "key": "{#93} font   {#keys}",
+            "key": "{#93} font    {#keys}",
             "type": "terminalfont"
         },
          {
-            "key": "{#33}󰉼 theme  {#keys}",
+            "key": "{#33}󰉼 theme   {#keys}",
             "type": "theme"
         },
         {
-            "key": "{#34}󰀻 icons  {#keys}",
+            "key": "{#34}󰀻 icons   {#keys}",
             "type": "icons"
         },
         {
-            "key": "{#35}󰍛 cpu    {#keys}",
+            "key": "{#35}󰍛 cpu     {#keys}",
             "type": "cpu",
             "showPeCoreCount": true
         },
          {
-            "key": "{#36}󰍛 gpu    {#keys}",
+            "key": "{#36}󰍛 gpu     {#keys}",
             "type": "gpu"
         },
         {
-            "key": "{#37}󰍹 display{#keys}",
+            "key": "{#37}󰍹 display {#keys}",
             "type": "display"
         },
         {
-            "key": "{#34}󰉉 disk   {#keys}",
+            "key": "{#34}󰉉 disk    {#keys}",
             "type": "disk",
             "folders": "/"
         },
         {
-            "key": "{#35} memory {#keys}",
+            "key": "{#35} memory  {#keys}",
             "type": "memory"
         },
         {
-            "key": "{#39} colors {#keys}",
+            "key": "{#39} colors  {#keys}",
             "type": "colors",
             "symbol": "circle"
         }
