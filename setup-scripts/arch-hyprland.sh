@@ -60,3 +60,4 @@ chezmoi apply -v
 
 # Install fish plugins
 fish -c 'fisher install < $HOME/.config/fish/fish_plugins'
+fish_config theme save "Catppuccin Mocha"
