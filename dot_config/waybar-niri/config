@@ -9,15 +9,15 @@
     "height": 30,
     "modules-left": [
         "custom/logo",
-        "hyprland/workspaces",
-        "hyprland/window",
+        "niri/workspaces",
+        "niri/window"
     ],
     "modules-center": [
        "clock"
     ],
         "modules-right": [
         "tray",
-        "hyprland/language",
+        "niri/language",
         "cpu",
         "memory",
         "temperature",
@@ -34,38 +34,21 @@
         "icon-size": 25,
         "tooltip-format": "{title}"
     },
-       "hyprland/language": {
+    "niri/workspaces": {
+    "disable-click": true,
+    "format": "{icon}",
+    "format-icons": {
+      "active": " ",
+      "default": " ",
+    },
+    },
+      "niri/language": {
       "format": " {}",
       "format-gr": "GR",
       "format-en": "US",
       "on-click": "hyprctl switchxkblayout sonix-usb-device-keyboard next"
     },
-        "hyprland/workspaces": {
-        "on-click": "activate",
-        "format": "{icon}",
-        "format-icons": {
-            "default": "",
-            "1": " ", 
-            "2": "󰈹 ",
-            "3": "󰉌 ",
-            "4": "󰝚 ",
-            "5": "󰈙 ",
-            "6": " ",
-            "7": " ",
-            "8": " ",
-            "9": " ",
-            "active": "󱓻",
-            "urgent": "󱓻"
-        },
-        "persistent_workspaces": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": []
-        }
-    },
-    "hyprland/window": {
+   "niri/window": {
     "max-length": 80,
     "rewrite": {
     ".*[Ff]irefox.*": "󰈹  $0",
@@ -75,11 +58,11 @@
     ".*[Ff]ish.*": "  $0",
     ".*[Rr]ofi.*": "  $0",
     ".*[Yi]azi.*": "  $0",
-      },
+    },
     "format": "{}",
     "on-empty": "hide"
     },
-      "cpu":{
+    "cpu":{
     "interval": 5,
     "format": " {usage}%",
     },
