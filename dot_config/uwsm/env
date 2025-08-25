@@ -1,14 +1,10 @@
 # Cursor
 export XCURSOR_SIZE=24
 export XCURSOR_THEME=catppuccin-mocha-sapphire-cursors
-export HYPRCURSOR_THEME=catppuccin-mocha-sapphire-cursors
-export HYPRCURSOR_SIZE=24
-export GTK_CURSOR_THEME_NAME=catppuccin-mocha-sapphire-cursors
 
 # GTK
 export GTK_THEME=Catppuccin-Mocha-Standard-Sapphire-Dark
 export GTK_ICON_THEME=Papirus-Dark
-export GTK_CURSOR_THEME_SIZE=24
 
 # Qt
 export QT_QPA_PLATFORM=wayland;xcb
