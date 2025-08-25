@@ -365,8 +365,8 @@ binds {
     Mod+Shift+W hotkey-overlay-title="Reload: waybar" { spawn "~/.config/niri/niri-waybar.sh"; }
     Mod+B hotkey-overlay-title="Run an Application: firefox" { spawn "firefox"; }
     Alt+Space hotkey-overlay-title="Run an Application: rofi" { spawn "~/.config/rofi/launchers/type-1/launcher.sh"; }
-    Mod+E hotkey-overlay-title="Run an application: yazi" { spawn "foot" "--title" "=yazi" "yazi"; }
-    Mod+N hotkey-overlay-title="Run an application: neovim" { spawn "foot" "--title" "=nvim" "nvim"; }
+    Mod+E hotkey-overlay-title="Run an application: yazi" { spawn "foot" "--title=yazi" "yazi"; }
+    Mod+N hotkey-overlay-title="Run an application: neovim" { spawn "foot" "--title=nvim" "nvim"; }
     Super+Shift+C hotkey-overlay-title="Show clipboard history" { spawn "sh" "-c" "cliphist list | rofi -dmenu -theme catppuccin | cliphist decode | wl-copy"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
 
