@@ -7,4 +7,4 @@ killall -q waybar
 while pgrep -x waybar >/dev/null; do sleep 1; done
 
 # Launch main
-waybar -c $HOME/.config/waybar/config -s $HOME/.config/waybar/style.css &> /dev/null & disown
+waybar -c $HOME/.config/waybar/hyprland/config -s $HOME/.config/waybar/hyprland/style.css &> /dev/null & disown
