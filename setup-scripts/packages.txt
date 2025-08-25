@@ -61,7 +61,7 @@ catppuccin-cursors-mocha
 # Hyprland
 HYPR=(
   hyprland
-  hyprpaper
+  swww
   hyprlock
   hypridle
   cliphist
