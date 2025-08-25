@@ -270,8 +270,6 @@ spawn-at-startup "wl-paste --type image --watch cliphist store"
 spawn-at-startup "xwayland-satellite"
 environment {
     DISPLAY ":0"
-}
-environment {
     QT_QPA_PLATFORM "wayland;xcb"
     GTK_THEME "Catppuccin-Mocha-Standard-Sapphire-Dark"
     GTK_ICON_THEME "Papirus-Dark"
