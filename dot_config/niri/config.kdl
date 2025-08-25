@@ -373,7 +373,6 @@ binds {
     Mod+Return hotkey-overlay-title="Open a Terminal: foot" { spawn "foot"; }
     Alt+E hotkey-overlay-title="Open a File Manager: thunar" { spawn "thunar"; }
     Mod+Shift+B hotkey-overlay-title="Reload: waybar" { spawn "~/.config/niri/niri-waybar.sh"; }
-    Mod+Shift+W hotkey-overlay-title="Reload: hyprpaper" { spawn "~/.config/hypr/wallpaper.sh"; }
     Mod+B hotkey-overlay-title="Run an Application: firefox" { spawn "firefox"; }
     Alt+Space hotkey-overlay-title="Run an Application: rofi" { spawn "~/.config/rofi/launchers/type-1/launcher.sh"; }
     Mod+E hotkey-overlay-title="Run an application: yazi" { spawn "foot" "--title=yazi" "yazi"; }
