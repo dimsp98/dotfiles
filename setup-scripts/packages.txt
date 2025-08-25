@@ -30,6 +30,16 @@ TOOLS=(
   eza
 )
 
+# Niri
+NIRI=(
+niri 
+swayidle
+xwayland-satellite
+xdg-desktop-portal-gtk
+xdg-desktop-portal-gnome
+gnome-keyring
+)
+
 # Maintenance tools
 MAINTENANCE=(
   btrfs-assistant

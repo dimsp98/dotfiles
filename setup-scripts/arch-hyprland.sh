@@ -25,6 +25,9 @@ source $HOME/.local/share/chezmoi/setup-scripts/packages.txt
   echo "Installing hyprland packages"
   paru -S --needed --noconfirm "${HYPR[@]}"
 
+  echo "Installing niri packages"
+  paru -S --needed --noconfirm "${NIRI[@]}"
+
   echo "Installing theming tools"
   paru -S --needed --noconfirm "${THEME[@]}"
 
