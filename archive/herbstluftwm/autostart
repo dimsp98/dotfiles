@@ -20,7 +20,7 @@ xclip &
 nm-applet &
 setxkbmap -model pc104 -layout us,gr -option 'grp:alt_shift_toggle' &
 pgrep -x dunst >/dev/null || dunst -c $HOME/.config/dunst/dunstrc &
-pgrep -x sxhkd >/dev/null || sxhkd -c $HOME/.config/herbstluftwm/sxhkdrc &
+pgrep -x sxhkd >/dev/null || sxhkd -c $HOME/.config/sxhkd/sxhkdrc &
 
 # remove all existing keybindings
 hc keyunbind --all
