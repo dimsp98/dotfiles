@@ -87,6 +87,7 @@ MEDIA=(
   hyprshot
   feh
   ristretto
+  vesktop
 )
 
 # File Management
@@ -110,6 +111,7 @@ ttf-iosevka-nerd
 ttf-roboto-mono-nerd
 ttf-iosevka-term-nerd
 )
+
 # Services to enable
 SERVICES=(
   NetworkManager.service
