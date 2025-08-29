@@ -22,6 +22,9 @@ TOOLS=(
   fish
   fisher
   neovim
+  ripgrep
+  lua-language-server
+  zellij
   starship
   foot
   git
