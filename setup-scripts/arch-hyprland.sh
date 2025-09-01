@@ -25,9 +25,6 @@ source $HOME/.local/share/chezmoi/setup-scripts/packages.txt
   echo "Installing hyprland packages"
   paru -S --needed --noconfirm "${HYPR[@]}"
 
-  echo "Installing niri packages"
-  paru -S --needed --noconfirm "${NIRI[@]}"
-
   echo "Installing theming tools"
   paru -S --needed --noconfirm "${THEME[@]}"
 
@@ -60,4 +57,4 @@ chezmoi apply -v
 
 # Install fish plugins
 fish -c 'fisher install < $HOME/.config/fish/fish_plugins'
-fish_config theme save "Catppuccin Mocha"
+fish -c 'fish_config theme save "Catppuccin Mocha"'

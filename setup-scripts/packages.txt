@@ -17,37 +17,27 @@ SYSTEM_UTILS=(
 
 # Terminal tools
 TOOLS=(
-  yazi
-  bat
-  fish
-  fisher
-  neovim
-  ripgrep
-  lua-language-server
-  zellij
-  starship
-  foot
-  git
-  zoxide
-  fd
-  eza
-)
-
-# Niri
-NIRI=(
-niri 
-swayidle
-xwayland-satellite
-xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland
-gnome-keyring
+yazi
+bat
+fish
+fisher
+neovim
+ripgrep
+lua-language-server
+zellij
+starship
+foot
+git
+zoxide
+fd
+eza
 )
 
 # Maintenance tools
 MAINTENANCE=(
-  btrfs-assistant
-  snapper
-  limine-snapper-sync
+btrfs-assistant
+snapper
+limine-snapper-sync
 )
 
 # Theming
@@ -63,16 +53,16 @@ catppuccin-cursors-mocha
 
 # Hyprland
 HYPR=(
-  hyprland
-  swww
-  hyprlock
-  hypridle
-  cliphist
-  rofi-wayland
-  waybar
-  wlogout
-  dunst
-  hyprpolkitagent
+hyprland
+swww
+hyprlock
+hypridle
+cliphist
+rofi-wayland
+waybar
+wlogout
+dunst
+hyprpolkitagent
 )
 
 # Audio
@@ -88,7 +78,6 @@ AUDIO=(
 MEDIA=(
   mpv
   hyprshot
-  feh
   ristretto
   vesktop
 )
