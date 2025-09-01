@@ -1,18 +1,18 @@
 # System utilities
 SYSTEM_UTILS=(
-  base-devel
-  bottom
-  lazygit
-  chezmoi
-  fastfetch
-  fzf
-  zip
-  unzip
-  git
-  wget
-  curl
-  networkmanager
-  uwsm
+base-devel
+bottom
+lazygit
+chezmoi
+fastfetch
+fzf
+zip
+unzip
+git
+wget
+curl
+networkmanager
+uwsm
 )
 
 # Terminal tools
@@ -54,7 +54,7 @@ catppuccin-cursors-mocha
 # Hyprland
 HYPR=(
 hyprland
-swww
+hyprpaper
 hyprlock
 hypridle
 cliphist
@@ -67,19 +67,19 @@ hyprpolkitagent
 
 # Audio
 AUDIO=(
-  pipewire
-  pipewire-audio
-  wireplumber
-  pipewire-pulse
+pipewire
+pipewire-audio
+wireplumber
+pipewire-pulse
 )
 
 
 # Media packages
 MEDIA=(
-  mpv
-  hyprshot
-  ristretto
-  vesktop
+mpv
+hyprshot
+ristretto
+vesktop
 )
 
 # File Management
