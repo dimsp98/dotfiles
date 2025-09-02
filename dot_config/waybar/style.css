@@ -75,8 +75,8 @@ window#waybar.hidden {
 }
 
 #workspaces button.urgent {
-  color: @red;
-  background-color: transparent;
+  color: @base;
+  background-color: @red;
 }
 
 #memory,
