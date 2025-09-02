@@ -2,4 +2,4 @@ LICENCE
 README.md
 archive
 setup-scripts
-dot_config/waybar/style.css.bak
+.config/**/*.bak
