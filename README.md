@@ -21,14 +21,13 @@ A backup of my Linux config files.
 
 📷 Screenshots
 ---------------------------------------
-<img width="1920" height="1080" alt="2025-08-21-182635_hyprshot" src="https://github.com/user-attachments/assets/f62f7c9c-fbff-4f5a-b563-2558c0774dd5" />
-<img width="1920" height="1080" alt="2025-08-21-182923_hyprshot" src="https://github.com/user-attachments/assets/ffa76e6d-09c3-4352-be6e-b25219f08eb5" />
-<img width="1920" height="1080" alt="2025-08-21-182958_hyprshot" src="https://github.com/user-attachments/assets/56345fdb-c05f-4f98-93c9-eb117c44d1a7" />
-<img width="1920" height="1080" alt="2025-08-21-183130_hyprshot" src="https://github.com/user-attachments/assets/95274199-bede-4df5-9360-89ddd0a1d06d" />
-<img width="1920" height="1080" alt="2025-08-21-183337_hyprshot" src="https://github.com/user-attachments/assets/afe4f662-3f61-4d20-818a-36c13ce8011d" />
-<img width="1920" height="1080" alt="2025-08-21-183519_hyprshot" src="https://github.com/user-attachments/assets/4ba950ed-186c-467b-85d9-101562c5b8cc" />
-<img width="1920" height="1080" alt="2025-08-19-221852_hyprshot" src="https://github.com/user-attachments/assets/7ca36cd5-a928-4b20-96f1-2b4b85ef2c9b" />
-
+<img width="1920" height="1080" alt="2025-09-02-202343_hyprshot" src="https://github.com/user-attachments/assets/a02392d5-fc43-4a11-88ff-8e172a1f60aa" />
+<img width="1920" height="1080" alt="2025-09-02-202520_hyprshot" src="https://github.com/user-attachments/assets/a913d9cc-f855-46a5-9a00-da2802a594ce" />
+<img width="1920" height="1080" alt="2025-09-02-203158_hyprshot" src="https://github.com/user-attachments/assets/476ea687-e552-4557-a6dc-8bc3b30fc799" />
+<img width="1920" height="1080" alt="2025-09-02-203117_hyprshot" src="https://github.com/user-attachments/assets/e11094a8-ca16-4c22-bd5c-00449918be0a" />
+<img width="1920" height="1080" alt="2025-09-02-203108_hyprshot" src="https://github.com/user-attachments/assets/303eaae2-1dff-4f74-b246-edb6050067e1" />
+<img width="1920" height="1080" alt="2025-09-02-203117_hyprshot" src="https://github.com/user-attachments/assets/55fe968c-0a52-4654-8466-b1a1c14aada5" />
+<img width="1920" height="1080" alt="2025-09-02-203902_hyprshot" src="https://github.com/user-attachments/assets/ef4ce2ea-7d24-4ca7-8520-408be3cc3188" />
 
 ⚙️ Install and setup
 ------------------------------
