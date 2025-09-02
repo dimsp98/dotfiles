@@ -36,7 +36,7 @@
         "tooltip-format": "{title}"
     },
        "hyprland/language": {
-      "format": " {}",
+      "format": "  {}",
       "format-gr": "GR",
       "format-en": "US",
       "on-click": "hyprctl switchxkblayout sonix-usb-device-keyboard next"
