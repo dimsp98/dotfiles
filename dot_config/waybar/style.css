@@ -70,8 +70,8 @@ window#waybar.hidden {
 }
 
 #workspaces button:hover {
-  color: @text;
-  background: transparent;
+  color: rgba(30, 30, 46, 1);
+  background: @text;
 }
 
 #workspaces button.urgent {
