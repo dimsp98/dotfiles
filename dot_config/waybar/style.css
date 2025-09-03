@@ -46,15 +46,15 @@ window#waybar.hidden {
 
 #workspaces {
   background: transparent;
-  padding: 0px 0px;
-  font-size: 15px;
+  padding: 3px 0px;
+  font-size: 14px;
 }
 
 #workspaces button {
   all: unset;
-  min-width: 0px;
+  min-width: 5px;
   min-width: 10px;
-  margin: 3px 4px;
+  margin: 0px 4px;
   padding: 3px 12px;
   border-radius: 4px;
   border: none;
@@ -100,7 +100,7 @@ window#waybar.hidden {
 #custom-logo {
   margin: 1px 4px;
   padding: 3px 3px;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 8px 8px 8px 8px;
   color: @sapphire;
   background-color: @mantle;
@@ -171,7 +171,7 @@ window#waybar.hidden {
 #wireplumber {
   background-color: @mantle;
   color: @yellow;
-  font-size: 15px;
+  font-size: 14px;
   margin: 3px 4px;
   padding: 3px 12px;
 }
@@ -179,7 +179,7 @@ window#waybar.hidden {
 #network {
   background-color: @mantle;
   color: @teal;
-  font-size: 15px;
+  font-size: 14px;
   margin: 3px 4px;
   padding: 3px 12px;
 }
@@ -187,12 +187,12 @@ window#waybar.hidden {
 #network.speed {
   background-color: @mantle;
   color: @teal;
-  font-size: 15px;
+  font-size: 14px;
   }
 
 #clock {
   font-family: JetBrainsMono Nerd Font;
-  font-size: 15px;
+  font-size: 14px;
   background-color: @mantle;   
   color: rgba(116, 199, 236, 0.9);
   margin: 3px 4px;
@@ -202,7 +202,7 @@ window#waybar.hidden {
 #custom-power {
   background-color: @mantle; 
   color: @flamingo;
-  font-size: 15px;
+  font-size: 14px;
   border-radius: 4px;
   margin: 3px 4px;
   padding: 3px 12px;
@@ -213,7 +213,7 @@ window#waybar.hidden {
   color: @blue;
   margin: 3px 4px;
   padding: 3px 12px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 tooltip {
@@ -229,7 +229,7 @@ tooltip label {
 
 #window {
   font-family: JetBrainsMono Nerd Font, monospace;
-  font-size: 15px;
+  font-size: 14px;
   margin: 3px 4px;
   padding: 3px 12px;
   background-color: @mantle;
