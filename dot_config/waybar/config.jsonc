@@ -8,12 +8,11 @@
     "margin-right": 5,
     "height": 30,
     "modules-left": [
-        "custom/logo",
-        "clock",
+        "hyprland/workspaces",
         "hyprland/window",
     ],
     "modules-center": [
-        "hyprland/workspaces"
+        "clock",
     ],
         "modules-right": [
         "tray",
@@ -46,7 +45,7 @@
         "format": "{icon}",
         "format-icons": {
             "default": "",
-            "1": "", 
+            "1": "󰆍", 
             "2": "󰈹",
             "3": "󰉌",
             "4": "󰝚",
