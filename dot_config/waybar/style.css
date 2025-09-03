@@ -170,7 +170,7 @@ window#waybar.hidden {
 
 #wireplumber {
   background-color: @mantle;
-  color: @yellow;
+  color: @lavender;
   font-size: 14px;
   margin: 3px 4px;
   padding: 3px 12px;
@@ -201,7 +201,7 @@ window#waybar.hidden {
 
 #custom-power {
   background-color: @mantle; 
-  color: @flamingo;
+  color: @maroon;
   font-size: 14px;
   border-radius: 4px;
   margin: 3px 4px;
