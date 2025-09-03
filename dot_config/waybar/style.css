@@ -170,7 +170,7 @@ window#waybar.hidden {
 
 #wireplumber {
   background-color: @mantle;
-  color: @lavender;
+  color: @mauve;
   font-size: 14px;
   margin: 3px 4px;
   padding: 3px 12px;
@@ -194,7 +194,7 @@ window#waybar.hidden {
   font-family: JetBrainsMono Nerd Font;
   font-size: 14px;
   background-color: @mantle;   
-  color: rgba(116, 199, 236, 0.9);
+  color: @sapphire;
   margin: 3px 4px;
   padding: 3px 12px;
 }
@@ -233,7 +233,7 @@ tooltip label {
   margin: 3px 4px;
   padding: 3px 12px;
   background-color: @mantle;
-  color: @mauve;
+  color: @lavender;
   border: none;
   min-width: 30px;
 }
