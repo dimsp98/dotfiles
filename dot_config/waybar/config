@@ -9,11 +9,11 @@
     "height": 30,
     "modules-left": [
         "custom/logo",
-        "hyprland/workspaces",
+        "clock",
         "hyprland/window",
     ],
     "modules-center": [
-       "clock"
+        "hyprland/workspaces"
     ],
         "modules-right": [
         "tray",

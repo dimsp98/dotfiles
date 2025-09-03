@@ -46,14 +46,13 @@ window#waybar.hidden {
 
 #workspaces {
   background: transparent;
-  padding: 3px 0px;
+  padding: 3px 2px;
   font-size: 14px;
 }
 
 #workspaces button {
   all: unset;
-  min-width: 5px;
-  min-width: 10px;
+  min-width: 15px;
   margin: 0px 4px;
   padding: 3px 12px;
   border-radius: 4px;
