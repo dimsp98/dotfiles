@@ -61,7 +61,7 @@ cliphist
 rofi-wayland
 waybar
 wlogout
-dunst
+mako
 hyprpolkitagent
 )
 
