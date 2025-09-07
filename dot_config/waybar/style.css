@@ -35,7 +35,7 @@
 
 window#waybar {
   color: @mauve;
-  background-color: transparent;
+  background-color: @base;
   transition-property: background-color;
   transition-duration: 0.5s;
 }
@@ -58,7 +58,7 @@ window#waybar.hidden {
   border-radius: 8px;
   border: none;
   color: @text;
-  background-color: @mantle;
+  background-color: transparent;
 }
 
 #workspaces button.active {
@@ -93,7 +93,7 @@ window#waybar.hidden {
   margin: 3px 4px;
   padding: 6px 12px;
   color: @text;
-  background: @mantle;
+  background: transparent;
 }
 
 #custom-logo {
@@ -102,11 +102,11 @@ window#waybar.hidden {
   font-size: 14px;
   border-radius: 8px 8px 8px 8px;
   color: @sapphire;
-  background-color: @mantle;
+  background-color: transparent;
 }
 
 #cpu {
-  background-color: @mantle;
+  background-color: transparent;
   color: @mauve;
   margin: 3px 4px;
   padding: 3px 12px;
@@ -115,7 +115,7 @@ window#waybar.hidden {
 }
 
 #temperature {
-  background-color: @mantle;
+  background-color: transparent;
   color: @red;
   margin: 3px 4px;
   padding: 3px 12px;
@@ -124,7 +124,7 @@ window#waybar.hidden {
 }
 
 #temperature.critical {
-  background-color: @mantle; /* maroon for critical temps */
+  background-color: transparent; /* maroon for critical temps */
   color: @maroon;
   margin: 3px 4px;
   padding: 3px 12px;
@@ -132,14 +132,14 @@ window#waybar.hidden {
 
 #memory {
   color: @peach;
-  background-color: @mantle;
+  background-color: transparent;
   margin: 3px 4px;
   padding: 3px 12px;
 }
 
 #battery {
   color: @red;
-  background-color: @mantle;
+  background-color: transparent;
   margin: 3px 4px;
   padding: 3px 12px;
 }
@@ -154,21 +154,21 @@ window#waybar.hidden {
 }
 
 #battery.charging {
-  background-color: @mantle;
+  background-color: transparent;
   color: @green; 
   margin: 3px 4px;
   padding: 3px 12px;
 }
 
 #backlight {
-  background-color: @mantle;
+  background-color: transparent;
   color: @peach;
   margin: 3px 4px;
   padding: 3px 12px;
 }
 
 #wireplumber {
-  background-color: @mantle;
+  background-color: transparent;
   color: @mauve;
   font-size: 14px;
   margin: 3px 4px;
@@ -176,7 +176,7 @@ window#waybar.hidden {
 }
 
 #network {
-  background-color: @mantle;
+  background-color: transparent;
   color: @teal;
   font-size: 14px;
   margin: 3px 4px;
@@ -184,7 +184,7 @@ window#waybar.hidden {
 }
 
 #network.speed {
-  background-color: @mantle;
+  background-color: transparent;
   color: @teal;
   font-size: 14px;
   }
@@ -192,14 +192,14 @@ window#waybar.hidden {
 #clock {
   font-family: JetBrainsMono Nerd Font;
   font-size: 14px;
-  background-color: @mantle;   
+  background-color: transparent;   
   color: @sapphire;
   margin: 3px 4px;
   padding: 3px 12px;
 }
 
 #custom-power {
-  background-color: @mantle; 
+  background-color: transparent; 
   color: @maroon;
   font-size: 14px;
   border-radius: 8px;
@@ -208,7 +208,7 @@ window#waybar.hidden {
 }
 
 #language {
-  background-color: @mantle; 
+  background-color: transparent; 
   color: @blue;
   margin: 3px 4px;
   padding: 3px 12px;
@@ -231,13 +231,13 @@ tooltip label {
   font-size: 14px;
   margin: 3px 4px;
   padding: 3px 12px;
-  background-color: @mantle;
+  background-color: transparent;
   color: @lavender;
   border: none;
   min-width: 30px;
 }
 
-/* make window module @mantle when no windows present */
+/* make window module transparent when no windows present */
 window#waybar.empty #window {
   background-color: transparent;
 }
