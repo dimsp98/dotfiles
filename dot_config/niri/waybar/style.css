@@ -1,0 +1,243 @@
+@define-color rosewater rgba(245, 224, 220, 1);
+@define-color flamingo rgba(242, 205, 205, 1);
+@define-color pink rgba(245, 194, 231, 1);
+@define-color mauve rgba(203, 166, 247, 1);
+@define-color red rgba(243, 139, 168, 1);
+@define-color maroon rgba(235, 160, 172, 1);
+@define-color peach rgba(250, 179, 135, 1);
+@define-color yellow rgba(249, 226, 175, 1);
+@define-color green rgba(166, 227, 161, 1);
+@define-color teal rgba(148, 226, 213, 1);
+@define-color sky rgba(137, 220, 235, 1);
+@define-color sapphire rgba(116, 199, 236, 1);
+@define-color blue rgba(137, 180, 250, 1);
+@define-color lavender rgba(180, 190, 254, 1);
+@define-color text rgba(205, 214, 244, 1);
+@define-color subtext1 rgba(186, 194, 222, 1);
+@define-color subtext0 rgba(166, 173, 200, 1);
+@define-color overlay2 rgba(147, 153, 178, 1);
+@define-color overlay1 rgba(127, 132, 156, 1);
+@define-color overlay0 rgba(108, 112, 134, 1);
+@define-color surface2 rgba(88, 91, 112, 1);
+@define-color surface1 rgba(69, 71, 90, 1);
+@define-color surface0 rgba(49, 50, 68, 1);
+@define-color base rgba(30, 30, 46, 0.85);
+@define-color mantle rgba(24, 24, 37, 0.85);
+@define-color crust rgba(17, 17, 27, 1);
+
+* {
+  border: 0;
+  border-radius: 10px;
+  min-height: 0px;
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+}
+
+window#waybar {
+  color: @mauve;
+  background-color: @base;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+window#waybar.hidden {
+  opacity: 0.5;
+}
+
+#workspaces {
+  background: transparent;
+  padding: 3px 2px;
+  font-size: 14px;
+}
+
+#workspaces button {
+  all: unset;
+  min-width: 15px;
+  margin: 0px 4px;
+  padding: 3px 12px;
+  border-radius: 8px;
+  border: none;
+  color: @text;
+  background-color: transparent;
+}
+
+#workspaces button.active {
+  color: @mantle;
+  background: @green;
+}
+
+#workspaces button:hover {
+  color: rgba(30, 30, 46, 1);
+  background: @text;
+}
+
+#workspaces button.urgent {
+  color: @mantle;
+  background-color: @red;
+}
+
+#memory,
+#custom-power,
+#custom-logo,
+#cpu,
+#temperature,
+#battery,
+#backlight,
+#wireplumber,
+#network,
+#clock,
+#tray,
+#language,
+#window {
+  border-radius: 8px;
+  margin: 3px 4px;
+  padding: 6px 12px;
+  color: @text;
+  background: transparent;
+}
+
+#custom-logo {
+  margin: 2px 4px;
+  padding: 3px 0px;
+  font-size: 14px;
+  border-radius: 8px 8px 8px 8px;
+  color: @sapphire;
+  background-color: transparent;
+}
+
+#cpu {
+  background-color: transparent;
+  color: @mauve;
+  margin: 3px 4px;
+  padding: 3px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#temperature {
+  background-color: transparent;
+  color: @red;
+  margin: 3px 4px;
+  padding: 3px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#temperature.critical {
+  background-color: transparent; /* maroon for critical temps */
+  color: @maroon;
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#memory {
+  color: @peach;
+  background-color: transparent;
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#battery {
+  color: @red;
+  background-color: transparent;
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  background-color: @red;
+  color: @yellow; 
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#battery.charging {
+  background-color: transparent;
+  color: @green; 
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#backlight {
+  background-color: transparent;
+  color: @peach;
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#wireplumber {
+  background-color: transparent;
+  color: @mauve;
+  font-size: 14px;
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#network {
+  background-color: transparent;
+  color: @teal;
+  font-size: 14px;
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#network.speed {
+  background-color: transparent;
+  color: @teal;
+  font-size: 14px;
+  }
+
+#clock {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 14px;
+  background-color: transparent;   
+  color: @sapphire;
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#custom-power {
+  background-color: transparent; 
+  color: @maroon;
+  font-size: 14px;
+  border-radius: 8px;
+  margin: 3px 4px;
+  padding: 3px 12px;
+}
+
+#language {
+  background-color: transparent; 
+  color: @blue;
+  margin: 3px 4px;
+  padding: 3px 12px;
+  font-size: 14px;
+}
+
+tooltip {
+  border-radius: 8px;
+  padding: 15px;
+  background-color: rgba(24, 24, 37, 0.9);
+}
+
+tooltip label {
+  padding: 5px;
+  background-color: rgba(24, 24, 37, 0.9);
+}
+
+#window {
+  font-family: JetBrainsMono Nerd Font, monospace;
+  font-size: 14px;
+  margin: 3px 4px;
+  padding: 3px 12px;
+  background-color: transparent;
+  color: @lavender;
+  border: none;
+  min-width: 30px;
+}
+
+/* make window module transparent when no windows present */
+window#waybar.empty #window {
+  background-color: transparent;
+}
