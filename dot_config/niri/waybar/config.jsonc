@@ -39,8 +39,8 @@
     "disable-click": false,
     "format": "{icon}",
     "format-icons": {
-      "active": "",
-      "default": "",
+      "active": "󰝥",
+      "default": "󰝦",
     },
     },
       "niri/language": {
