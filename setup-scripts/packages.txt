@@ -15,6 +15,16 @@ networkmanager
 uwsm
 )
 
+# Niri tools
+NIRI=(
+niri
+swayidle
+hyprpaper
+waybar
+rofi-wayland
+mako
+)
+
 # Terminal tools
 TOOLS=(
 yazi
