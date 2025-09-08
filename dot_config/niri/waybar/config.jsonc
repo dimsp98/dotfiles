@@ -36,11 +36,11 @@
         "tooltip-format": "{title}"
     },
     "niri/workspaces": {
-    "disable-click": true,
+    "disable-click": false,
     "format": "{icon}",
     "format-icons": {
-      "active": " ",
-      "default": " ",
+      "active": "",
+      "default": "",
     },
     },
       "niri/language": {

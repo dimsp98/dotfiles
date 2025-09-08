@@ -46,7 +46,7 @@ window#waybar.hidden {
 
 #workspaces {
   background: transparent;
-  padding: 3px 2px;
+  padding: 3px 12px;
   font-size: 14px;
 }
 
