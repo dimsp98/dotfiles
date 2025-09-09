@@ -8,7 +8,6 @@
     "margin-right": 5,
     "height": 30,
     "modules-left": [
-        "custom/logo",
         "niri/workspaces",
         "niri/window"
     ],
