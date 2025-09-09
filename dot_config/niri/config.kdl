@@ -38,41 +38,24 @@ input {
         // scroll-button 273
         // middle-emulation
     }
-
-    // Uncomment this to make the mouse warp to the center of newly focused windows.
-    // warp-mouse-to-focus
-
-    // Focus windows and outputs automatically when moving the mouse into them.
-    // Setting max-scroll-amount="0%" makes it work only on windows already fully on screen.
-    // focus-follows-mouse max-scroll-amount="0%"
 }
 
 output "eDP-1" {
-    // Uncomment this line to disable this output.
-    // off
     mode "1920x1080@144"
-    // You can use integer or fractional scale, for example use 1.5 for 150% scale.
     scale 1
-    // Transform allows to rotate the output counter-clockwise, valid values are:
-    // normal, 90, 180, 270, flipped, flipped-90, flipped-180 and flipped-270.
     transform "normal"
-
-     position x=1280 y=0
+    position x=1280 y=0
 }
 
 layout {
-    // Set gaps around windows in logical pixels.
     gaps 16
 
       center-focused-column "never"
 
     preset-column-widths {
-                proportion 0.33333
+        proportion 0.33333
         proportion 0.5
         proportion 0.66667
-
-        // Fixed sets the width in logical pixels exactly.
-        // fixed 1920
     }
 
     default-column-width { proportion 0.5; }
@@ -97,10 +80,6 @@ layout {
     }
 
     struts {
-        // left 64
-        // right 64
-        // top 64
-        // bottom 64
     }
 }
 
@@ -140,18 +119,9 @@ animations {
 }
 
 window-rule {
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    default-column-width {}
-}
-window-rule {
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
+    match app-id=r#"firefox$"# 
+    open-maximized true
     open-floating false
-}
-
-/-window-rule {
-    match app-id=r#"^org\.keepassxc\.KeePassXC$"#
-    match app-id=r#"^org\.gnome\.World\.Secrets$"#
-    block-out-from "screen-capture"
 }
 
 window-rule {
@@ -167,7 +137,6 @@ window-rule {
 
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
-    // Suggested binds for running programs: terminal, app launcher, screen locker.
     Mod+Return hotkey-overlay-title="Open a Terminal: foot" { spawn "foot"; }
     Alt+E hotkey-overlay-title="Open a File Manager: thunar" { spawn "thunar"; }
     Mod+Shift+B hotkey-overlay-title="Reload: waybar" { spawn "~/.config/niri/niri-waybar.sh"; }
@@ -178,7 +147,6 @@ binds {
     Super+Shift+C hotkey-overlay-title="Show clipboard history" { spawn "fish" "-c" "cliphist list | rofi -dmenu -theme catppuccin | cliphist decode | wl-copy"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
    
-    // Example volume keys mappings for PipeWire & WirePlumber.
     XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
     XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
     XF86AudioMute        allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
