@@ -115,7 +115,14 @@ prefer-no-csd
 screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 
 animations {
-    // off
+    window-open {
+        duration-ms 300
+        curve "cubic-bezier" 0.05 0.7 0.1 1
+    }
+    window-close {
+       duration-ms 300
+       curve "cubic-bezier" 0.05 0.7 0.1 1
+    }
     // slowdown 3.0
 }
 
