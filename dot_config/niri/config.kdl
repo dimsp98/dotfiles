@@ -126,6 +126,12 @@ window-rule {
 }
 
 window-rule {
+  match app-id=r#"steam"#
+  open-maximized true
+  open-floating false
+}
+
+window-rule {
     geometry-corner-radius 12
     clip-to-geometry true
 }
