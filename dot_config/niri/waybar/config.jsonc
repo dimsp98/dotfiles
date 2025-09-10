@@ -43,7 +43,7 @@
     },
     },
       "niri/language": {
-      "format": " {}",
+      "format": "  {}",
       "format-gr": "GR",
       "format-en": "US",
       "on-click": "switchxkblayout sonix-usb-device-keyboard next"
