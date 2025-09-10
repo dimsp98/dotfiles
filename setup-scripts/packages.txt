@@ -18,8 +18,7 @@ uwsm
 # Niri tools
 NIRI=(
 niri
-swayidle
-hyprpaper
+swww
 waybar
 rofi-wayland
 mako

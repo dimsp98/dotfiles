@@ -78,12 +78,12 @@ layout {
     }
 }
 
-spawn-at-startup "~/.config/niri/niri-waybar.sh"
 spawn-at-startup "xdg-desktop-portal-gtk"
 spawn-at-startup "xdg-desktop-portal-gnome"
 spawn-at-startup "gnome-keyring"
 spawn-at-startup "mako"
-spawn-at-startup "hyprpaper"
+spawn-at-startup "swww-daemon"
+spawn-sh-at-startup "swww img $HOME/Pictures/catppuccin-city.png --transition-step 255"
 spawn-at-startup "systemctl --user start hyprpolkitagent"
 spawn-at-startup "$HOME/.config/niri/niri-waybar.sh"
 spawn-at-startup "hypridle"
