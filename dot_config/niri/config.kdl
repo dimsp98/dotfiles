@@ -48,10 +48,10 @@ output "eDP-1" {
 }
 
 layout {
-    gaps 16
-
-      center-focused-column "never"
-
+    gaps 5 
+    background-color "#1e1e2e"
+    always-center-single-column
+    center-focused-column "never"
     preset-column-widths {
         proportion 0.33333
         proportion 0.5
@@ -60,18 +60,13 @@ layout {
 
     default-column-width { proportion 0.5; }
     focus-ring {
-        off
-        width 3
-        active-color "#74c7ec"
-        inactive-color "#1e1e2e"
-    }
-    border {
         width 2
         active-color "#74c7ec"
         inactive-color "#1e1e2e"
         urgent-color "#f38ba8"
     }
-    shadow {
+
+       shadow {
         // on
         softness 30
         spread 5
@@ -146,6 +141,16 @@ window-rule {
     match is-active=false
 
     opacity 0.95
+}
+
+hotkey-overlay {
+    skip-at-startup
+}
+
+// Make the backdrop light.
+overview {
+    backdrop-color "#1e1e2e"
+    zoom 0.5
 }
 
 // Block out password managers from screencasts.
