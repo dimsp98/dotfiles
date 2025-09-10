@@ -84,7 +84,8 @@ layout {
 }
 
 spawn-at-startup "~/.config/niri/niri-waybar.sh"
-spawn-at-startup "/usr/lib/xdg-desktop-portal-gtk"
+spawn-at-startup "xdg-desktop-portal-gtk"
+spawn-at-startup "xdg-desktop-portal-gnome"
 spawn-at-startup "gnome-keyring"
 spawn-at-startup "mako"
 spawn-at-startup "hyprpaper"
@@ -134,6 +135,13 @@ window-rule {
     opacity 0.95
 }
 
+// Block out password managers from screencasts.
+window-rule {
+    match app-id=r#"^org\.keepassxc\.KeePassXC$"#
+    match app-id=r#"^org\.gnome\.World\.Secrets$"#
+
+    block-out-from "screencast"
+}
 
 binds {
     Mod+Shift+Slash { show-hotkey-overlay; }
