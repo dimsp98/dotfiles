@@ -40,7 +40,7 @@ input {
     }
 }
 
-output "eDP-1" {
+output "DP-1" {
     mode "1920x1080@144"
     scale 1
     transform "normal"
@@ -89,7 +89,6 @@ spawn-at-startup "gnome-keyring"
 spawn-at-startup "systemctl --user start hyprpolkitagent"
 spawn-at-startup "wl-paste --type text --watch cliphist store" 
 spawn-at-startup "wl-paste --type image --watch cliphist store" 
-spawn-at-startup "xwayland-satellite"
 environment {
     QT_QPA_PLATFORM "wayland;xcb"
     GTK_THEME "Catppuccin-Mocha-Standard-Sapphire-Dark"
@@ -97,7 +96,6 @@ environment {
     QT_QPA_PLATFORMTHEME "qt5ct"
     QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
     QT_AUTO_SCREEN_SCALE_FACTOR "1"
-    DISPLAY ":0"
     ELECTRON_OZONE_PLATFORM_HINT "auto"
 }
 
@@ -170,7 +168,7 @@ binds {
     Alt+Space hotkey-overlay-title="Run an Application: rofi" { spawn "~/.config/rofi/launchers/type-1/launcher.sh"; }
     Mod+E hotkey-overlay-title="Run an application: yazi" { spawn "foot" "--title=yazi" "yazi"; }
     Mod+N hotkey-overlay-title="Run an application: neovim" { spawn "foot" "--title=nvim" "nvim"; }
-    Super+Shift+C hotkey-overlay-title="Show clipboard history" { spawn "fish" "-c" "cliphist list | rofi -dmenu -theme catppuccin | cliphist decode | wl-copy"; }
+    Super+Shift+C hotkey-overlay-title="Show clipboard history" { spawn-sh "cliphist list | rofi -dmenu -theme catppuccin | cliphist decode | wl-copy"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
    
     XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
