@@ -116,4 +116,5 @@ ttf-iosevka-term-nerd
 # Services to enable
 SERVICES=(
   NetworkManager.service
+  hyprpolkitagent.service
 )

@@ -86,7 +86,6 @@ spawn-sh-at-startup "swww img $HOME/Pictures/catppuccin-city.png --transition-st
 spawn-at-startup "xdg-desktop-portal-gtk"
 spawn-at-startup "xdg-desktop-portal-gnome"
 spawn-at-startup "gnome-keyring"
-spawn-at-startup "systemctl --user start hyprpolkitagent"
 spawn-at-startup "wl-paste --type text --watch cliphist store" 
 spawn-at-startup "wl-paste --type image --watch cliphist store" 
 environment {
