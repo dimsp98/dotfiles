@@ -78,7 +78,6 @@ layout {
     }
 }
 
-spawn-sh-at-startup "$HOME/.config/niri/niri-waybar.sh"
 spawn-at-startup "swww-daemon"
 spawn-at-startup "mako"
 spawn-at-startup "hypridle"
@@ -86,8 +85,9 @@ spawn-sh-at-startup "swww img $HOME/Pictures/catppuccin-city.png --transition-st
 spawn-at-startup "xdg-desktop-portal-gtk"
 spawn-at-startup "xdg-desktop-portal-gnome"
 spawn-at-startup "gnome-keyring"
-spawn-at-startup "wl-paste --type text --watch cliphist store" 
-spawn-at-startup "wl-paste --type image --watch cliphist store" 
+spawn-at-startup "fish" "-c" "wl-paste --type text --watch cliphist store &" 
+spawn-at-startup "fish" "-c" "wl-paste --type image --watch cliphist store &"
+spawn-at-startup "dms" "run"
 environment {
     QT_QPA_PLATFORM "wayland;xcb"
     GTK_THEME "Catppuccin-Mocha-Standard-Sapphire-Dark"
@@ -167,14 +167,9 @@ binds {
     Alt+Space hotkey-overlay-title="Run an Application: rofi" { spawn "~/.config/rofi/launchers/type-1/launcher.sh"; }
     Mod+E hotkey-overlay-title="Run an application: yazi" { spawn "foot" "--title=yazi" "yazi"; }
     Mod+N hotkey-overlay-title="Run an application: neovim" { spawn "foot" "--title=nvim" "nvim"; }
-    Super+Shift+C hotkey-overlay-title="Show clipboard history" { spawn-sh "cliphist list | rofi -dmenu -theme catppuccin | cliphist decode | wl-copy"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
    
-    XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
-    XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }
-    XF86AudioMute        allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SINK@" "toggle"; }
-    XF86AudioMicMute     allow-when-locked=true { spawn "wpctl" "set-mute" "@DEFAULT_AUDIO_SOURCE@" "toggle"; }
-
+   
     Mod+O repeat=false { toggle-overview; }
 
     Mod+Q { close-window; }
@@ -303,8 +298,55 @@ binds {
     Ctrl+Alt+Delete { quit; }
 
     Mod+Shift+P { power-off-monitors; }
-}
-
-clipboard {
+    
+    Mod+Space hotkey-overlay-title="Application Launcher" {
+      spawn "dms" "ipc" "call" "spotlight" "toggle";
+   }
+   Mod+Shift+C hotkey-overlay-title="Clipboard Manager" {
+      spawn "dms" "ipc" "call" "clipboard" "toggle";
+   }
+   Mod+m hotkey-overlay-title="Task Manager" {
+      spawn "dms" "ipc" "call" "processlist" "toggle";
+   }
+   Mod+Alt+N hotkey-overlay-title="Notification Center" {
+      spawn "dms" "ipc" "call" "notifications" "toggle";
+   }
+   Mod+S hotkey-overlay-title="Settings" {
+      spawn "dms" "ipc" "call" "settings" "toggle";
+   }
+   Mod+p hotkey-overlay-title="Notepad" {
+      spawn "dms" "ipc" "call" "notepad" "toggle";
+   }
+   Super+L hotkey-overlay-title="Lock Screen" {
+      spawn "dms" "ipc" "call" "lock" "lock";
+   }
+   Mod+X hotkey-overlay-title="Power Menu" {
+      spawn "dms" "ipc" "call" "powermenu" "toggle";
+   }
+   XF86AudioRaiseVolume allow-when-locked=true {
+      spawn "dms" "ipc" "call" "audio" "increment" "3";
+   }
+   XF86AudioLowerVolume allow-when-locked=true {
+      spawn "dms" "ipc" "call" "audio" "decrement" "3";
+   }
+   XF86AudioMute allow-when-locked=true {
+      spawn "dms" "ipc" "call" "audio" "mute";
+   }
+   XF86AudioMicMute allow-when-locked=true {
+      spawn "dms" "ipc" "call" "audio" "micmute";
+   }
+   XF86MonBrightnessUp allow-when-locked=true {
+      spawn "dms" "ipc" "call" "brightness" "increment" "5" "";
+   }
+   // You can override the default device for e.g. keyboards by adding the device name to the last param
+   XF86MonBrightnessDown allow-when-locked=true {
+      spawn "dms" "ipc" "call" "brightness" "decrement" "5" "";
+   }
+   // Night mode toggle
+   Mod+Shift+N allow-when-locked=true {
+      spawn "dms" "ipc" "call" "night" "toggle";
+   }
+ }
+ clipboard {
     disable-primary
 }

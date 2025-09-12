@@ -18,10 +18,11 @@ uwsm
 # Niri tools
 NIRI=(
 niri
-swww
-waybar
-rofi-wayland
-mako
+dms-shell-git
+matugen-bin
+dgop
+cava
+brightnessctl
 )
 
 # Terminal tools
@@ -60,18 +61,23 @@ papirus-icon-theme
 catppuccin-cursors-mocha
 )
 
+# Utilities
+UTILS=(
+hyprlock
+hypridle
+rofi-wayland
+wl-clipboard
+cliphist
+mako
+hyprpolkitagent
+swww
+wlogout
+)
+
 # Hyprland
 HYPR=(
 hyprland
-hyprpaper
-hyprlock
-hypridle
-cliphist
-rofi-wayland
 waybar
-wlogout
-mako
-hyprpolkitagent
 )
 
 # Audio
