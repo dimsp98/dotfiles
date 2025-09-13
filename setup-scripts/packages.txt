@@ -19,7 +19,7 @@ uwsm
 NIRI=(
 niri
 dms-shell-git
-matugen-bin
+matugen-git
 dgop
 cava
 brightnessctl

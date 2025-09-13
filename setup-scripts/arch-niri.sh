@@ -45,15 +45,29 @@ source $HOME/.local/share/chezmoi/setup-scripts/packages.txt
 
 # Enable services
   echo "Configuring services..."
+
   for service in "${SERVICES[@]}"; do
-    if ! systemctl is-enabled "$service" &> /dev/null; then
-      echo "Enabling $service..."
-      sudo systemctl enable "$service"
+    # Check if it's a user service
+    if systemctl --user list-unit-files | grep -q "^$service"; then
+      if ! systemctl --user is-enabled "$service" &> /dev/null; then
+        echo "Enabling user service: $service..."
+        systemctl --user enable --now "$service"
+      else
+        echo "User service $service is already enabled"
+      fi
+      # Check if it's a system service
+    elif systemctl list-unit-files | grep -q "^$service"; then
+      if ! systemctl is-enabled "$service" &> /dev/null; then
+      echo "Enabling system service: $service..."
+      sudo systemctl enable --now "$service"
+      else
+      echo "System service $service is already enabled"
+    fi
     else
-      echo "$service is already enabled"
+    echo "⚠️  Service $service not found (skipping)"
     fi
   done
-
+ 
 # Apply dotfiles with chezmoi
 chezmoi init https://github.com/dimsp98/dotfiles.git 
 chezmoi apply -v
