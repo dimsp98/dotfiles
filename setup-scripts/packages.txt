@@ -63,14 +63,10 @@ catppuccin-cursors-mocha
 
 # Utilities
 UTILS=(
-hyprlock
-hypridle
-rofi-wayland
 wl-clipboard
 cliphist
 mako
 hyprpolkitagent
-swww
 wlogout
 )
 
@@ -78,6 +74,11 @@ wlogout
 HYPR=(
 hyprland
 waybar
+hyprlock
+hypridle
+rofi-wayland
+swww
+hyprshot
 )
 
 # Audio
@@ -88,11 +89,10 @@ wireplumber
 pipewire-pulse
 )
 
-
 # Media packages
 MEDIA=(
 mpv
-hyprshot
+yt-dlp
 ristretto
 vesktop
 )

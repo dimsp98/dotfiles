@@ -19,9 +19,6 @@ source $HOME/.local/share/chezmoi/setup-scripts/packages.txt
   echo "Installing system utilities..."
   paru -S --needed --noconfirm "${SYSTEM_UTILS[@]}"
 
-  echo "Installing niri packages"
-  paru -S --needed --noconfirm "${NIRI[@]}"
-  
   echo "Installing development utilities"
   paru -S --needed --noconfirm "${UTILS[@]}"
 
