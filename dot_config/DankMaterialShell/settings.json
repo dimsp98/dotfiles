@@ -11,7 +11,7 @@
   "weatherLocation": "40.7128, 21.9877132",
   "weatherCoordinates": "40.7128,21.9877132",
   "useAutoLocation": true,
-  "weatherEnabled": true,
+  "weatherEnabled": false,
   "showLauncherButton": true,
   "showWorkspaceSwitcher": true,
   "showFocusedWindow": true,
@@ -40,10 +40,10 @@
   "workspaceNameIcons": {},
   "waveProgressEnabled": true,
   "clockCompactMode": false,
-  "focusedWindowCompactMode": false,
+  "focusedWindowCompactMode": true,
   "runningAppsCompactMode": true,
   "runningAppsCurrentWorkspace": true,
-  "clockDateFormat": "dddd, MMMM d",
+  "clockDateFormat": "",
   "lockDateFormat": "",
   "mediaSize": 1,
   "topBarLeftWidgets": [
@@ -62,10 +62,6 @@
   ],
   "topBarCenterWidgets": [
     {
-      "id": "music",
-      "enabled": true
-    },
-    {
       "id": "clock",
       "enabled": true
     },
@@ -74,14 +70,8 @@
       "enabled": true
     },
     {
-      "id": "cpuTemp",
+      "id": "music",
       "enabled": true
-    },
-    {
-      "id": "gpuTemp",
-      "enabled": true,
-      "selectedGpuIndex": 0,
-      "pciId": "10de:2783"
     }
   ],
   "topBarRightWidgets": [
@@ -108,6 +98,16 @@
     {
       "id": "idleInhibitor",
       "enabled": true
+    },
+    {
+      "id": "cpuTemp",
+      "enabled": true
+    },
+    {
+      "id": "gpuTemp",
+      "enabled": true,
+      "selectedGpuIndex": 0,
+      "pciId": "10de:2783"
     },
     {
       "id": "controlCenterButton",
@@ -140,7 +140,7 @@
   "topBarBottomGap": 0,
   "topBarInnerPadding": 8,
   "topBarSquareCorners": false,
-  "topBarNoBackground": false,
+  "topBarNoBackground": true,
   "lockScreenShowPowerActions": true,
   "hideBrightnessSlider": false,
   "notificationTimeoutLow": 5000,
