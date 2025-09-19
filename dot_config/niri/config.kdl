@@ -81,7 +81,7 @@ layout {
 spawn-at-startup "swww-daemon"
 spawn-at-startup "mako"
 spawn-at-startup "xdg-desktop-portal-gtk"
-spawn-at-startup "xdg-desktop-portal-gnome"
+spawn-at-startup "xdg-desktop-portal"
 spawn-at-startup "gnome-keyring"
 spawn-at-startup "fish" "-c" "wl-paste --type text --watch cliphist store &" 
 spawn-at-startup "fish" "-c" "wl-paste --type image --watch cliphist store &"
