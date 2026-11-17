@@ -57,9 +57,3 @@ In the archive directory, I have included old config files from my previous syst
  - i3
  - bspwm
  - herbstluftwm
-
-Credits
------------------------
- • goolord for [alpha-nvim](https://github.com/goolord/alpha-nvim)
-      
- • [typecraft-dev](https://typecraft.dev/) for the Neovim config and the helpful customization tutorials
